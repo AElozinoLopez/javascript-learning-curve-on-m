@@ -19,3 +19,7 @@ person.name = 'ASAIJE Elozino Lopez';
 // Using the Bracket Notation to change the value of an object
 person['age'] = 31;
 console.log(person);
+
+//Arrays
+let selectedColors = ['red', 'green', 'blue']
+console.log(selectedColors);
