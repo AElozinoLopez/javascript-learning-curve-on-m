@@ -53,3 +53,8 @@ console.log(averagelyElligibleForLoan);
 
 let notElligibleForLoan = !elligibleForLoan;
 console.log(notElligibleForLoan);
+
+//QUIZ
+// What is the result of x
+let x = (2 + 3) * (4 + 5);
+console.log(x);
