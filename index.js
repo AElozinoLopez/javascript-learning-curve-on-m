@@ -15,4 +15,7 @@ let person = {
 
 // Using the Dot Notation to change the property of an object
 person.name = 'ASAIJE Elozino Lopez';
+
+// Using the Bracket Notation to change the value of an object
+person['age'] = 31;
 console.log(person);
