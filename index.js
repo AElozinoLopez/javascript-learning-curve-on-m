@@ -28,7 +28,7 @@ selectedColors[3] = 'yellow';
 console.log(selectedColors); 
 
 //Functions
-function greet(name) {
-    console.log('Hello ' + name);
+function greet(name, lastName) {
+    console.log('Hello ' + name + lastName);
 }
-greet('Chinwe');
+greet('Chinwe', 'ElozinoLopez');
