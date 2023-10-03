@@ -25,4 +25,10 @@ let selectedColors = ['red', 'green', 'blue']
 
 //Adding to the list of the array
 selectedColors[3] = 'yellow';
-console.log(selectedColors);
+console.log(selectedColors); 
+
+//Functions
+function greet() {
+    console.log('Hello Fam');
+}
+greet();
