@@ -50,3 +50,6 @@ let elligibleForLoan = highIncome && goodCreditScore;
 let averagelyElligibleForLoan = highIncome || goodCreditScore;
 console.log(elligibleForLoan);
 console.log(averagelyElligibleForLoan);
+
+let notElligibleForLoan = !elligibleForLoan;
+console.log(notElligibleForLoan);
