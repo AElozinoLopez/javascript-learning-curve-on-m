@@ -22,4 +22,7 @@ console.log(person);
 
 //Arrays
 let selectedColors = ['red', 'green', 'blue']
+
+//Adding to the list of the array
+selectedColors[3] = 'yellow';
 console.log(selectedColors);
