@@ -45,6 +45,8 @@ console.log(result);
 //Conditional Operators
 // && || !
 let highIncome = true;
-let goodCreditScore = true;
+let goodCreditScore = false;
 let elligibleForLoan = highIncome && goodCreditScore;
+let averagelyElligibleForLoan = highIncome || goodCreditScore;
 console.log(elligibleForLoan);
+console.log(averagelyElligibleForLoan);
