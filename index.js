@@ -80,3 +80,19 @@ else if (hour > 12 && hour <= 18)
     console.log('Good afternoon');
 else 
     console.log('Good evening');
+
+
+//Switch...case
+// let role;
+// switch (role) {
+//     case: console.log('Guest User')
+//     break
+//     case: (console.log('Admin User'))
+//     break
+//     default: 
+// }
+
+// For loop
+for (let i = 0; i < 5; i++) {
+    console.log('Hello World');
+}
