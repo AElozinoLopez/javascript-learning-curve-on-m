@@ -67,6 +67,17 @@ let c = a;
 a = b;
 b = c;
 
-
 console.log(a);
 console.log(b);
+
+//Conditional Statements
+// If..else 
+let hour = 10;
+
+if (hour >= 6 && hour <= 12) {
+    console.log('Good morning');
+} else if (hour > 6 && hour <= 12) {
+    console.log('Good afternoon');
+} else {
+    console.log('Good evening');
+}
