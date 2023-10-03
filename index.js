@@ -41,3 +41,10 @@ greet('Chinwe', 'ElozinoLopez');
 let point = 110;
 let result = point > 100 ? 'Gold' : 'Silver' 
 console.log(result);
+
+//Conditional Operators
+// && || !
+let highIncome = true;
+let goodCreditScore = true;
+let elligibleForLoan = highIncome && goodCreditScore;
+console.log(elligibleForLoan);
