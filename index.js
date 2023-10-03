@@ -32,3 +32,12 @@ function greet(name, lastName) {
     console.log('Hello ' + name + ' ' + lastName);
 }
 greet('Chinwe', 'ElozinoLopez');
+
+// Operators 
+// + - * / % **
+// === !== == > < >= =< 
+// ++x x++  --x  x--
+// Ternary Operator
+let point = 110;
+let result = point > 100 ? 'Gold' : 'Silver' 
+console.log(result);
