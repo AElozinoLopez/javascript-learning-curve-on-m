@@ -58,3 +58,10 @@ console.log(notElligibleForLoan);
 // What is the result of x
 let x = (2 + 3) * (4 + 5);
 console.log(x);
+
+// Exercise
+let a = 'red';
+let b = 'blue';
+
+console.log(a);
+console.log(b);
