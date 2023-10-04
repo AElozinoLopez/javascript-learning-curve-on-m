@@ -165,11 +165,14 @@ checkSpeed(180);
 
 function showNumbers (limit) {
     for (let i = 0; i <= limit; i++) {
-        if (i % 2 === 0) 
-             console.log(i, 'Even');
-        else 
-            console.log(i, 'Odd');
+        // if (i % 2 === 0) 
+        //      console.log(i, 'Even');
+        // else 
+        //     console.log(i, 'Odd');
+        // Using ternary operator
+        const message = (i % 2 === 0) ? 'Even' : 'Odd';
+        console.log(i, message);
     }
 }
-
 showNumbers(5);
+
