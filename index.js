@@ -96,3 +96,12 @@ else
 for (let i = 0; i < 5; i++) {
     console.log('Hello World');
 }
+
+// Exercise
+// Write a function that takes two numbers and returns the maximum of the two.
+function numbers(a, b) {
+    if (a > b) console.log(a);
+    else if (b > a) console.log(b);
+    return;
+}
+numbers(5, 7);
