@@ -140,8 +140,9 @@ const output = fizzBuzz(15);
 console.log(output);
 
 //Function to check the speed of a moving vehicle and suspend teh license at certain speed limits
-const speed = 70;
-function speedLimit() {
+// const speed = 70;
+function speedLimit(speed) {
     if (speed <= 70) 
         return 'Ok'
 }
+console.log(speedLimit(70));
