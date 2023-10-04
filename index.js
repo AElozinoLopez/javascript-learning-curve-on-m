@@ -156,4 +156,4 @@ function checkSpeed(speed) {
     }
 
 }
-console.log(checkSpeed(70));
+checkSpeed(70);
