@@ -170,4 +170,4 @@ function showNumbers (limit) {
     console.log(limit, 'Odd');
 }
 
-showNumbers(10);
+showNumbers(5);
