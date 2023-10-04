@@ -118,3 +118,13 @@ console.log(isLandScape (20, 25));
 function isLandScape (width, height) {
     return (width > height);
 }
+
+//Exercise 3
+function fizzBuzz (input) {
+    if (input % 3 === 0) return 'Fizz';
+    else if (input % 5 === 0) return 'Buzz';
+    else if (input % 3 && input % 5 === 0) return 'FizzBuzz';
+}
+
+const output = fizzBuzz(5);
+console.log(output);
