@@ -108,8 +108,8 @@ numbers(4, 4);
 
 // Exercise 2
 function isLandScape (width, height) {
-    if (width > height)  console.log('Picture is landscape');
+    if (width > height)  return 'Picture is landscape';
     return 'Picture is portrait'
 }
 
-isLandScape (20, 115);
+console.log(isLandScape (20, 15));
