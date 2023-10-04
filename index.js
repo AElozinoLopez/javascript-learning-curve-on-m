@@ -97,7 +97,7 @@ for (let i = 0; i < 5; i++) {
     console.log('Hello World');
 }
 
-// Exercise
+// Exercise 1
 // Write a function that takes two numbers and returns the maximum of the two.
 function numbers(a, b) {
     if (a > b) console.log(a);
@@ -105,3 +105,11 @@ function numbers(a, b) {
     else console.log('The numbers are equal');
 }
 numbers(4, 4);
+
+// Exercise 2
+function isLandScape (width, height) {
+    if (width > height) return 'Picture is landscape';
+    return 'Picture is portrait'
+}
+
+isLandScape (20, 15);
