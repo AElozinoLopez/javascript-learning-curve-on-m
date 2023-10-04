@@ -126,5 +126,5 @@ function fizzBuzz (input) {
     else if (input % 3 && input % 5 === 0) return 'FizzBuzz';
 }
 
-const output = fizzBuzz(5);
+const output = fizzBuzz(15);
 console.log(output);
