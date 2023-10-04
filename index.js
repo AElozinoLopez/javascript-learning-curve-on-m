@@ -139,6 +139,8 @@ function fizzBuzz (input) {
 const output = fizzBuzz(15);
 console.log(output);
 
+
+//Exercise 4
 //Function to check the speed of a moving vehicle and suspend teh license at certain speed limits
 // const speed = 70;
 function checkSpeed(speed) {
@@ -156,4 +158,14 @@ function checkSpeed(speed) {
     }
 
 }
-checkSpeed(180);
+checkSpeed(180); 
+
+//Exercise 5
+// Function to display even and odd numbers within a certain range
+showNumbers = 10;
+function showNumbers (limit) {
+ if (limit % 2 === 0) 
+    console.log(limit, 'Even');
+ else 
+    console.log(limit, 'Odd');
+}
