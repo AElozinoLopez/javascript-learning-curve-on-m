@@ -164,11 +164,11 @@ checkSpeed(180);
 // Function to display even and odd numbers within a certain range
 
 function showNumbers (limit) {
-    for (let i = 0; i <= 10; i++) {
-        if (limit % 2 === 0) 
-             console.log(limit, 'Even');
+    for (let i = 0; i <= limit; i++) {
+        if (i % 2 === 0) 
+             console.log(i, 'Even');
         else 
-            console.log(limit, 'Odd');
+            console.log(i, 'Odd');
     }
 }
 
