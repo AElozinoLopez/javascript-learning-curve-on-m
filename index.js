@@ -144,6 +144,6 @@ console.log(output);
 function checkSpeed(speed) {
     const speedLimit = 70;
     if (speed <= speedLimit) 
-        return 'Ok'
+        return 'Ok';
 }
 console.log(checkSpeed(70));
