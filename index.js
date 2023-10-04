@@ -112,4 +112,9 @@ function isLandScape (width, height) {
     return 'Picture is portrait'
 }
 
-console.log(isLandScape (20, 25));
+console.log(isLandScape (20, 25));  
+
+// The above function is supposed to either return true or false. See implementation below
+function isLandScape (width, height) {
+    return (width > height);
+}
