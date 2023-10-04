@@ -143,6 +143,8 @@ console.log(output);
 // const speed = 70;
 function checkSpeed(speed) {
     const speedLimit = 70;
+    const kmPerPoint = 5;
+    
     if (speed <= speedLimit) 
         return 'Ok';
 }
