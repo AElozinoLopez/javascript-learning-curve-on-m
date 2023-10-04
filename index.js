@@ -136,5 +136,5 @@ function fizzBuzz (input) {
     return input;
 }
 
-const output = fizzBuzz(17);
+const output = fizzBuzz(15);
 console.log(output);
