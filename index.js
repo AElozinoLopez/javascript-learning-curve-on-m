@@ -121,10 +121,14 @@ function isLandScape (width, height) {
 
 //Exercise 3
 function fizzBuzz (input) {
-    if (input % 3 === 0) console.log('Fizz');
-    else if (input % 5 === 0) console.log('Buzz');
-    else if (input % 3 && input % 5 === 0) console.log('FizzBuzz');
+
+    if ((input % 3) && (input % 5 === 0))
+        return 'FizzBuzz';
+    if (input % 3 === 0) 
+        return 'Fizz';
+    if (input % 5 === 0) 
+        return 'Buzz';
 }
 
-const output = fizzBuzz(15);
+const output = fizzBuzz(5);
 console.log(output);
