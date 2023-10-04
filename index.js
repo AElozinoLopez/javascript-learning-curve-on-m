@@ -102,6 +102,6 @@ for (let i = 0; i < 5; i++) {
 function numbers(a, b) {
     if (a > b) console.log(a);
     else if (b > a) console.log(b);
-    return;
+    else console.log('The numbers are equal');
 }
 numbers(4, 4);
