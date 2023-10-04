@@ -104,4 +104,4 @@ function numbers(a, b) {
     else if (b > a) console.log(b);
     return;
 }
-numbers(5, 7);
+numbers(5, 4);
