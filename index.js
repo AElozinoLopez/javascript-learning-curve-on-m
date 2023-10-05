@@ -201,6 +201,7 @@ const movie = {
 }
 
 function showProperties(obj) {
-
+    for (let key in obj)
+        return movie[]
 }
 
