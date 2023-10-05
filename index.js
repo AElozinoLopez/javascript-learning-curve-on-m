@@ -195,7 +195,7 @@ showProperties(movie);
 // Function to determine the sum of 3 and 5 to a certain limit
 
 function sum(limit) {
-    for (let i = 10; i <= limit; i++)
+    for (let i = 0; i <= limit; i++)
         if ((i % 3 === 0) || (i % 5 === 0))
         
 }
