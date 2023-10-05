@@ -230,3 +230,4 @@ function calculateGrades(marks) {
     return 'A';
 
 }
+console.log(calculateGrades(marks));
