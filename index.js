@@ -184,8 +184,12 @@ const array = [1, 2, 3, 4];
 
 function countTruthy (array) {
     let count = 0;
-    if (array) 
-    console.log(array.length);
+    for (value of array) 
+        if (value) 
+            count++;
+        return count;
+    
+    
 }
 
 countTruthy(1, 2, 3, 4);
