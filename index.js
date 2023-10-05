@@ -219,5 +219,6 @@ const marks = [80, 67, 90];
 function calculateGrades(marks) {
     let sum = 0;
         for (let mark of marks)
-            
+            sum += mark;  //to get the total marks acquired by student
+        
 }
