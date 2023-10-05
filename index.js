@@ -187,3 +187,5 @@ function countTruthy (array) {
     console.log(array.length);
 }
 
+countTruthy(1, 2, 3, 4);
+
