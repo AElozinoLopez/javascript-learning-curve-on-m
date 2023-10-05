@@ -208,7 +208,8 @@ console.log(sum(20));
 
 // Exercise 9
 // Function to calculate the grades of students
+const marks = [80, 67, 90];
 
 function calculateGrades(marks) {
-    
+
 }
