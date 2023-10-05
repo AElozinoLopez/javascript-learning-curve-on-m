@@ -193,8 +193,14 @@ function countTruthy (array) {
 console.log(countTruthy(array));
 
 //Function to display values of an object of type string
+const movie = {
+    title: 'a',
+    releasedYear: 2018,
+    rating: 5,
+    director: 'b'
+}
 
 function showProperties(obj) {
-    
+
 }
 
