@@ -251,7 +251,12 @@ function showStars(rows) {
             pattern += '*';
         console.log(pattern);
     }
-    
-
 }
 showStars(3);
+
+
+//EXercise 11
+//Function to create prime numbers 
+function showPrime(limit) {
+
+}
