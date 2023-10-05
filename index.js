@@ -183,7 +183,8 @@ showNumbers(5);
 const array = [1, 2, 3, 4];
 
 function countTruthy (array) {
- if (array) 
+    let count = 0;
+    if (array) 
     console.log(array.length);
 }
 
