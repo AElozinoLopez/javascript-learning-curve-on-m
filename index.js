@@ -246,7 +246,7 @@ function calculateAverage(array) {
 //Function to show number of stars 
 function showStars(rows) {
     let stars = '*';
-    for (i = 1; i <= rows; i++)
+    for (let i = 1; i <= rows; i++)
     return stars += i;
 
 }
