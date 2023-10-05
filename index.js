@@ -204,3 +204,11 @@ function sum(limit) {
         return sum;        
 }
 console.log(sum(20));
+
+
+// Exercise 9
+// Function to calculate the grades of students
+
+function calculateGrades(marks) {
+    
+}
