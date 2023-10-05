@@ -192,3 +192,9 @@ function countTruthy (array) {
 
 console.log(countTruthy(array));
 
+//Function to display values of an object of type string
+
+function showProperties(obj) {
+    
+}
+
