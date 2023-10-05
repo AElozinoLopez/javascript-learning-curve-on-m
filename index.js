@@ -192,5 +192,5 @@ function countTruthy (array) {
     
 }
 
-countTruthy(1, 2, 3, 4);
+console.log(countTruthy(array));
 
