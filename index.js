@@ -208,8 +208,16 @@ console.log(sum(20));
 
 // Exercise 9
 // Function to calculate the grades of students
+// Average = 70
+// 1 - 59 -> F
+// 60 - 69 -> D
+// 70 - 79 -> C
+// 80 - 89 -> B
+// 90 - 100 -> A
 const marks = [80, 67, 90];
 
 function calculateGrades(marks) {
-
+    let sum = 0;
+        for (let mark of marks)
+            
 }
