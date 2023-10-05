@@ -254,4 +254,4 @@ function showStars(rows) {
     
 
 }
-console.log(showStars(3));
+showStars(3);
