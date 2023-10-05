@@ -203,4 +203,4 @@ function sum(limit) {
 
         return sum;        
 }
-sum (20);
+console.log(sum(20));
