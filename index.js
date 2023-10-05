@@ -192,6 +192,8 @@ function countTruthy (array) {
 
 console.log(countTruthy(array));
 
+
+//Exercise 7
 //Function to display values of an object of type string
 const movie = {
     title: 'a',
@@ -207,3 +209,9 @@ function showProperties(obj) {
 }
 showProperties(movie);
 
+
+//Exercise 8
+// Function to determine the sum of 3 and 5 to a certain limit
+function sum(limit) {
+    
+}
