@@ -233,11 +233,18 @@ function calculateGrades(marks) {
 console.log(calculateGrades(marks));
 
 //Creating a separate function to calculate the average of numbers
-//Function to calculate the average of two numbers
+//Function to calculate the average of two numbers in an array
 function calculateAverage(array) {
     let sum = 0;
     for (let value of array) {
         sum += value;
     return average = sum / array.length;
     }
+}
+
+//Exercise 10
+//Function to show number of stars 
+function showStars(rows) {
+    
+
 }
