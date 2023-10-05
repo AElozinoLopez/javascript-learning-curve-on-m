@@ -209,7 +209,7 @@ console.log(sum(20));
 // Exercise 9
 // Function to calculate the grades of students
 // Average = 70
-// 1 - 59 -> F
+// 0 - 59 -> F
 // 60 - 69 -> D
 // 70 - 79 -> C
 // 80 - 89 -> B
@@ -222,5 +222,11 @@ function calculateGrades(marks) {
         sum += mark;  //to get the total marks acquired by student
 
     let average = sum / marks.length;
+
+    if (average < 60) return 'F';
+    if (average < 70) return 'D';
+    if (average < 80) return 'C';
+    if (average < 90) return 'B';
+    return 'A';
 
 }
