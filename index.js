@@ -196,5 +196,6 @@ showProperties(movie);
 
 function sum(limit) {
     for (let i = 10; i <= limit; i++)
+        if ((i % 3 === 0) || (i % 5 === 0))
         
 }
