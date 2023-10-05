@@ -245,7 +245,12 @@ function calculateAverage(array) {
 //Exercise 10
 //Function to show number of stars 
 function showStars(rows) {
-    for (let row = 1; row <= rows; row++)
+    for (let row = 1; row <= rows; row++) {
+        let pattern = '';
+        for (let i = 0; i < row; i++)
+            pattern += '*';
+        console.log(pattern);
+    }
     
 
 }
