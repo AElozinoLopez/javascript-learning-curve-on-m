@@ -180,7 +180,7 @@ showNumbers(5);
 //Exercise 6 
 // function to calculate truthy values
 
-const array = [1, 2, 3, 4];
+// const array = [1, 2, 3, 4];
 
 function countTruthy (array) {
     let count = 0;
