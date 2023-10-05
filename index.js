@@ -174,5 +174,15 @@ function showNumbers (limit) {
         console.log(i, message);
     }
 }
-showNumbers(5);
+showNumbers(5); 
+
+
+//Exercise 6 
+// function to calculate truthy values
+
+
+
+function countTruthy (array) {
+
+}
 
