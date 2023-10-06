@@ -304,3 +304,8 @@ function createCircle(radius) {
         }
     }
 }
+
+const circle1 = createCircle(3);
+console.log(circle1);
+
+
