@@ -277,6 +277,20 @@ function calculatePrime(number) {
     for (let factor = 2; factor < number; factor++) 
         if (number % factor === 0) 
            return false;   
-        
+
     return true; 
 }
+
+//End of Exercises
+
+//FACTORY FUNCTION
+const circle = {
+    radius: 1,
+    location: {
+        x: 1,
+        y: 2
+    },
+    draw: function() {
+        console.log('draw');
+    }
+}; 
