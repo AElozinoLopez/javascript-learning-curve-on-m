@@ -313,7 +313,7 @@ console.log(circle2);
 
 //Constructor Function 
 function Circle (radius) {
-    this.radius = radius,
+    this.radius = radius;
     this.draw = function () {
         console.log('draw');
     }
