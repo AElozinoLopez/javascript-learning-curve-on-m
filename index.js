@@ -271,3 +271,8 @@ function showPrimes(limit) {
     }
 }
 showPrimes(10);
+
+//Function to calculate the prime factors of a number
+function calculatePrime(number) {
+    
+}
