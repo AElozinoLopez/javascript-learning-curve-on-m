@@ -258,6 +258,13 @@ showStars(3);
 //EXercise 11
 //Function to create prime numbers 
 function showPrimes(limit) {
-    for (number = 2; number <= limit; number++)
-        if (i % )
+    for (number = 2; number <= limit; number++) {
+
+        let isPrime = true;
+            for (let factor = 2; factor < number; factor ++) {
+                if (factor % number === 0)
+                isPrime = false;
+                break;
+            }
+    }
 }
