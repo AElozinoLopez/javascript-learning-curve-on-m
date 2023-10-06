@@ -318,3 +318,6 @@ function Circle (radius) {
         console.log('draw');
     }
 }
+
+const circle3 = new Circle(8);
+console.log(circle3);
