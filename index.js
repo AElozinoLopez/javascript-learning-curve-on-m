@@ -338,3 +338,5 @@ elozinoLopez.draw = function () {
 delete elozinoLopez.yearOfGraduation;
 
 console.log('elozinoLopez', elozinoLopez);
+
+console.log('Every object has a constructor property and that /n references the function that was used to create the object.');
