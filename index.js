@@ -334,4 +334,7 @@ elozinoLopez.draw = function () {
   console.log('draw');
 }
 
+//Deleting properties of an object
+delete elozinoLopez.yearOfGraduation;
+
 console.log('elozinoLopez', elozinoLopez);
