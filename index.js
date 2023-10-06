@@ -328,4 +328,4 @@ const elozinoLopez = {
 }
 console.log(elozinoLopez);
 // Adding new properties to the object
-elozinoLopez.school = 'Stutern'
+elozinoLopez.school = 'Stutern';
