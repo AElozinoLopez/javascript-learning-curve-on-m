@@ -270,4 +270,4 @@ function showPrimes(limit) {
         if (isPrime === true) console.log(number);
     }
 }
-
+showPrimes(10);
