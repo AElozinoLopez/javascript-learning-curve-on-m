@@ -262,7 +262,7 @@ function showPrimes(limit) {
 
         let isPrime = true;
             for (let factor = 2; factor < number; factor ++) {
-                if (factor % number === 0)
+                if (number % factor === 0)
                 isPrime = false;
                 break;
             }
