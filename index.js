@@ -326,6 +326,6 @@ console.log(circle3);
 const elozinoLopez = {
   age: 22
 }
-console.log(elozinoLopez);
 // Adding new properties to the object
 elozinoLopez.school = 'Stutern';
+console.log(elozinoLopez);
