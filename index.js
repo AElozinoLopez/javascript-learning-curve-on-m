@@ -257,6 +257,7 @@ showStars(3);
 
 //EXercise 11
 //Function to create prime numbers 
-function showPrime(limit) {
-
+function showPrimes(limit) {
+    for (number = 0; number <= limit; number++)
+        if (i % )
 }
