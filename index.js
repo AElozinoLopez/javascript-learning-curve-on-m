@@ -321,3 +321,8 @@ function Circle (radius) {
 
 const circle3 = new Circle(8);
 console.log(circle3);
+
+//Playing with Objects
+const elozinoLopez = {
+  age: 22
+}
