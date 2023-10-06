@@ -273,13 +273,8 @@ function showPrimes(limit) {
 showPrimes(10);
 
 //Function to calculate the prime factors of a number
-function calculatePrime(number) {
-    let isPrime = true;
-    for (let factor = 2; factor < number; factor++) {
-        if (number % factor === 0) {
-            isPrime === false;
-            break;
-        }        
-    }
-    if (isPrime === 0) console.log(number);
+function calculatePrime(number) {    
+    for (let factor = 2; factor < number; factor++) 
+        if (number % factor === 0) 
+           return false;    
 }
