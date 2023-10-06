@@ -310,3 +310,11 @@ console.log(circle1);
 
 const circle2 = createCircle(77);
 console.log(circle2);
+
+//Constructor Function 
+function Circle (radius) {
+    this.radius = radius,
+    this.draw = function () {
+        console.log('draw');
+    }
+}
