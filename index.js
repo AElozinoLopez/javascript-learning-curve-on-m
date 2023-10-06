@@ -328,4 +328,5 @@ const elozinoLopez = {
 }
 // Adding new properties to the object
 elozinoLopez.school = 'Stutern';
+elozinoLopez.course = 'Backend Engineering'
 console.log(elozinoLopez);
