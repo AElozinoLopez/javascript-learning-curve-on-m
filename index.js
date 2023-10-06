@@ -276,5 +276,7 @@ showPrimes(10);
 function calculatePrime(number) {    
     for (let factor = 2; factor < number; factor++) 
         if (number % factor === 0) 
-           return false;    
+           return false;   
+        
+    return true; 
 }
