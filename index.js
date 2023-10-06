@@ -294,3 +294,13 @@ const circle = {
         console.log('draw');
     }
 }; 
+
+//The object above can be made a factory function as below:
+function createCircle(radius) {
+   return{ 
+        radius,
+        draw() {
+            console.log('draw');
+        }
+    }
+}
