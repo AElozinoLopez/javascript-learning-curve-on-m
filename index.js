@@ -350,11 +350,10 @@ function that was used to create the object.`);
 //for...in loop. This will convert the object to an array which is iterable.
 
 //For...in 
-for (let key in elozinoLopez) {
+for (let key in elozinoLopez) 
   console.log(key, elozinoLopez[key]);
-}
+
 
 //For...of  with object
-for (let key of Object.keys(elozinoLopez)) {
+for (let key of Object.keys(elozinoLopez)) 
   console.log(key);
-}
