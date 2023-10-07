@@ -356,4 +356,9 @@ for (let key in elozinoLopez)
 
 //For...of  with object
 for (let key of Object.keys(elozinoLopez)) //Using the Object.keys() method to iterate over the object.
-  console.log(key);
+console.log(key);  // Only displays the key. To get the values, see below:
+
+//Using the Object.entries() method to get the key-value pair of the object
+for (let entry of Object.entries(elozinoLopez));
+console.log(entry);
+
