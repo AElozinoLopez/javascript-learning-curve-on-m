@@ -355,5 +355,5 @@ for (let key in elozinoLopez)
 
 
 //For...of  with object
-for (let key of Object.keys(elozinoLopez)) 
+for (let key of Object.keys(elozinoLopez)) //Using the Object.keys() method to iterate over the object.
   console.log(key);
