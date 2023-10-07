@@ -403,10 +403,13 @@ console.log(teller);
 
 const teller2 = new String('Chomzy'); 
 
-const teller3 = "Chima";  //Using the dot notation with a string variable turns the 
+const teller3 = "Chima Obi Ike";  //Using the dot notation with a string variable turns the 
 //string primitive to an object and allow us access certain properties as shown below:
  teller3.length
  teller3.includes('Brain');
  teller3[0];
- teller3.startsWith('Chima')
+ teller3.startsWith('Chima');
+ teller3.endsWith('a'),
+ teller3.indexOf('Chima');
+ teller3.replace('Chima', 'Mary')
 console.log(teller3);
