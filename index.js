@@ -371,5 +371,6 @@ if ('age' in elozinoLopez) console.log('yes');
 console.log('Cloning an Object');
 //Old method
 //Using the elozinoLopez object as the reference object
+const elozinoJunior = {};
 elozinoJunior[key] = elozinoLopez[key];
 console.log(elozinoJunior); 
