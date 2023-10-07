@@ -390,3 +390,6 @@ console.log('elozinoJunior3', elozinoJunior3);
 // This is how JavaScript deallocates memory location from variables and constants that are
 // no longer in use. The process is automatic
 
+//Math
+//It is a special object in JavaScript that allows us perform mathematical operations.
+//The Math object comes with a variety of methods that you read up in MDN documentation
