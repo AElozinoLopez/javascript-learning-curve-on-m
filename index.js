@@ -403,7 +403,7 @@ console.log(teller);
 
 const teller2 = new String('Chomzy'); 
 
-const teller3 = '  Chima   Obi Ike';  //Using the dot notation with a string variable turns the 
+const teller3 = '  Chima   \'Obi Ike';  //Using the dot notation with a string variable turns the 
 //string primitive to an object and allow us access certain properties as shown below:
  teller3.length
  teller3.includes('Brain');
@@ -417,3 +417,8 @@ const teller3 = '  Chima   Obi Ike';  //Using the dot notation with a string var
  teller3.trim();
  teller3.split(' ');
 console.log(teller3);
+
+//Escape Notation
+// This is used to introduce special characters in a string. 
+// \n for new line
+// \' to add a single quote . This is used in line 406
