@@ -385,3 +385,8 @@ console.log('elozinoJunior2', elozinoJunior2);
 //This makes use of the spread operator (...)
 const elozinoJunior3 = {...elozinoLopez};
 console.log('elozinoJunior3', elozinoJunior3);
+
+//Garbage Collector
+// This is how JavaScript deallocates memory location from variables and constants that are
+// no longer in use. The process is automatic
+
