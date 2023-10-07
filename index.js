@@ -401,4 +401,4 @@ console.log('elozinoJunior3', elozinoJunior3);
 const teller = "Chioma";  // string primitive
 console.log(teller);
 
-const teller2 = String('Chomzy');
+const teller2 = new String('Chomzy');
