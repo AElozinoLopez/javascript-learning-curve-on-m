@@ -351,5 +351,5 @@ function that was used to create the object.`);
 
 //For...in 
 for (let key in elozinoLopez) {
-  console.log(key);
+  console.log(key, elozinoLopez[key]);
 }
