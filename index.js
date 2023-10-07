@@ -374,14 +374,14 @@ console.log('Cloning an Object');
 const elozinoJunior = {};
 for (let key in elozinoLopez)
 elozinoJunior[key] = elozinoLopez[key];
-console.log(elozinoJunior); 
+console.log('elozinoJunior', elozinoJunior); 
 
 //Recent method to clone
 //This method makes use of the Object.assign() method
 const elozinoJunior2 = Object.assign({}, elozinoLopez); // This replaces lines 375 to 377
-console.log(elozinoJunior2); 
+console.log('elozinoJunior2', elozinoJunior2); 
 
 //The greatest way to clone
 //This makes use of the spread operator (...)
 const elozinoJunior3 = {...elozinoLopez};
-console.log(elozinoJunior3);
+console.log('elozinoJunior3', elozinoJunior3);
