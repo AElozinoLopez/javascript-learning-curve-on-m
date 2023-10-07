@@ -372,5 +372,6 @@ console.log('Cloning an Object');
 //Old method
 //Using the elozinoLopez object as the reference object
 const elozinoJunior = {};
+for (let key in elozinoLopez)
 elozinoJunior[key] = elozinoLopez[key];
 console.log(elozinoJunior); 
