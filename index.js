@@ -362,3 +362,8 @@ console.log(key);  // Only displays the key. To get the values, see below:
 for (let entry of Object.entries(elozinoLopez))
 console.log(entry);
 
+console.log('Note', `To see if a given property or method exists in an object, 
+we use the in property together with an if statement as shown below`);
+
+if ('age' in elozinoLopez) console.log('yes')
+
