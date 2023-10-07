@@ -339,4 +339,8 @@ delete elozinoLopez.yearOfGraduation;
 
 console.log('elozinoLopez', elozinoLopez);
 
-console.log('Every object has a constructor property and that /n references the function that was used to create the object.');
+console.log(`Every object has a constructor property and that references the 
+function that was used to create the object.`);
+
+elozinoLopez.call(); //is used to create a new function
+elozinoLopez.apply(); //is used to call an array that has been declared somewhere else in the program
