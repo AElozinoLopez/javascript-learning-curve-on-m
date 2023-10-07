@@ -392,4 +392,11 @@ console.log('elozinoJunior3', elozinoJunior3);
 
 //Math
 //It is a special object in JavaScript that allows us perform mathematical operations.
-//The Math object comes with a variety of methods that you read up in MDN documentation
+//The Math object comes with a variety of methods that you read up in MDN documentation 
+
+//String
+//String is an object that comes with varieties of methods. 
+//This is different from the string primitive
+
+const teller = "Chioma";  // string primitive
+console.log(teller);
