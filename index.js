@@ -403,5 +403,7 @@ console.log(teller);
 
 const teller2 = new String('Chomzy'); 
 
-const teller3 = "Chima";  //
+const teller3 = "Chima";  //Using the dot notation with a string variable turns the 
+//string primitive to an object and allow us access certain properties as shown below:
+ 
 console.log(teller3);
