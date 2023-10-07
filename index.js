@@ -339,8 +339,17 @@ delete elozinoLopez.yearOfGraduation;
 
 console.log('elozinoLopez', elozinoLopez);
 
-console.log(`Every object has a constructor property and that references the 
+console.log('Note:', `Every object has a constructor property and that references the 
 function that was used to create the object.`);
 
-elozinoLopez.call(); //is used to create a new function
-elozinoLopez.apply(); //is used to call an array that has been declared somewhere else in the program
+// elozinoLopez.call(); //is used to create a new function
+// elozinoLopez.apply(); //is used to call an array that has been declared somewhere else in the program 
+
+//Using the For...in and the For...of Loop to iterate over an object
+//An object is not iterable. To iterate over an object, use the Object.key method with the
+//for...in loop. This will convert the object to an array which is iterable.
+
+//For...in 
+for (let key in elozinoLopez) {
+  console.log('key');
+}
