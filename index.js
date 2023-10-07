@@ -374,7 +374,6 @@ console.log('Cloning an Object');
 // const elozinoJunior = {};
 // for (let key in elozinoLopez)
 // elozinoJunior[key] = elozinoLopez[key];
-// console.log(elozinoJunior); 
 
 //Recent method
 //This method makes use of the Object.assign() method
