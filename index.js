@@ -367,3 +367,9 @@ we use the in property together with an if statement as shown below`);
 
 if ('age' in elozinoLopez) console.log('yes');
 
+
+console.log('Cloning an Object');
+//Old method
+//Using the elozinoLopez object as the reference object
+elozinoJunior[key] = elozinoLopez[key];
+console.log(elozinoJunior); 
