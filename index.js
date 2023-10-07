@@ -369,13 +369,19 @@ if ('age' in elozinoLopez) console.log('yes');
 
 
 console.log('Cloning an Object');
-//Old method
+//Old method to clone
 //Using the elozinoLopez object as the reference object
-// const elozinoJunior = {};
-// for (let key in elozinoLopez)
-// elozinoJunior[key] = elozinoLopez[key];
-
-//Recent method
-//This method makes use of the Object.assign() method
-const elozinoJunior = Object.assign({}, elozinoLopez); // This replaces lines 375 to 377
+const elozinoJunior = {};
+for (let key in elozinoLopez)
+elozinoJunior[key] = elozinoLopez[key];
 console.log(elozinoJunior); 
+
+//Recent method to clone
+//This method makes use of the Object.assign() method
+const elozinoJunior2 = Object.assign({}, elozinoLopez); // This replaces lines 375 to 377
+console.log(elozinoJunior2); 
+
+//The greatest way to clone
+//This makes use of the spread operator (...)
+const elozinoJunior3 = {...elozinoLopez};
+console.log(elozinoJunior3);
