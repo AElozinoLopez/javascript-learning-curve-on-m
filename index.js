@@ -353,3 +353,8 @@ function that was used to create the object.`);
 for (let key in elozinoLopez) {
   console.log(key, elozinoLopez[key]);
 }
+
+//For...of  with object
+for (let key of elozinoLopez) {
+  console.log(key);
+}
