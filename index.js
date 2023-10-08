@@ -448,4 +448,6 @@ console.log(email);
 const now = new Date();
 console.log('now');
 
-const date1 = new Date('October 8 2023') // Assigning date as a string
+const date1 = new Date('October 8 2023'); // Assigning date as a string
+const date2 = new Date(2023, 9, 8, 10) //year, month (month starts counting from 0), day, time
+
