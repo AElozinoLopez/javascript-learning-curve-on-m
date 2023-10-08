@@ -445,3 +445,6 @@ console.log(email);
 // Date object
 //This is used to dynamically assign date in a project
 
+const now = Date();
+
+console.log('now');
