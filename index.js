@@ -424,5 +424,14 @@ console.log(teller3);
 // \' to add a single quote . This is used in line 406
 
 //But the use of escape notation is too noisy. Instead, use template literals represented by backtiks ``
+//Benefits of using template literals
+// 1. You can format your text exactly as you want it to appear to the user. eg
+const email = `Dear Jude,
 
+Thank you for signing up on our mailing list.
+
+Regards,
+ElozinoLopez`
+
+console.log(email);
 
