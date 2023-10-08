@@ -439,5 +439,5 @@ ElozinoLopez`
 console.log(email);
 
 // 2. You can add a placeholder indicated by ${} with which you can insert any expression or call a variable or constant
-//
+//You can use teh temp;late literal to call a function that returns a value
 
