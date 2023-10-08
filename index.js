@@ -446,5 +446,6 @@ console.log(email);
 //This is used to dynamically assign date in a project
 
 const now = Date();
-
 console.log('now');
+
+const time1 = Date('8th October, 2023') // Assigning date as a string
