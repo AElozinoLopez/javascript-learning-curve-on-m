@@ -431,7 +431,7 @@ const email = `Dear Jude,
 
 Thank you for signing up on our mailing list.
 
-Looking forward to %{year} with great hope!
+Looking forward to ${year} with  ${49 + 58886999} target!
 
 Regards,
 ElozinoLopez`
