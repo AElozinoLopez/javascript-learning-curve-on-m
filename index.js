@@ -390,11 +390,11 @@ console.log('elozinoJunior3', elozinoJunior3);
 // This is how JavaScript deallocates memory location from variables and constants that are
 // no longer in use. The process is automatic
 
-//Math
+//Math object
 //It is a special object in JavaScript that allows us perform mathematical operations.
 //The Math object comes with a variety of methods that you read up in MDN documentation 
 
-//String
+//String object
 //String is an object that comes with varieties of methods. 
 //This is different from the string primitive
 
@@ -439,5 +439,9 @@ ElozinoLopez`
 console.log(email);
 
 // 2. You can add a placeholder indicated by ${} with which you can insert any expression or call a variable or constant
-//You can use teh temp;late literal to call a function that returns a value
+//You can use teh template literal to call a function that returns a value
+
+
+// Date object
+//This is used to dynamically assign date in a project
 
