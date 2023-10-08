@@ -422,3 +422,7 @@ console.log(teller3);
 // This is used to introduce special characters in a string. 
 // \n for new line
 // \' to add a single quote . This is used in line 406
+
+//But the use of escape notation is too noisy. Instead, use template literals represented by backtiks ``
+
+
