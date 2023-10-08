@@ -426,12 +426,18 @@ console.log(teller3);
 //But the use of escape notation is too noisy. Instead, use template literals represented by backtiks ``
 //Benefits of using template literals
 // 1. You can format your text exactly as you want it to appear to the user. eg
+const year = 2024;
 const email = `Dear Jude,
 
 Thank you for signing up on our mailing list.
+
+Looking forward to %{year} with great hope!
 
 Regards,
 ElozinoLopez`
 
 console.log(email);
+
+// 2. You can add a placeholder indicated by ${} with which you can insert any expression or call a variable or constant
+//
 
