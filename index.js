@@ -459,3 +459,8 @@ now.toDateString();  //use like this on the console to get output
 now.toTimeString();
 now.toISOString(); //Commonly used in web applications to transfer date between the server and the client
 console.log(now);    //To execute it in the terminal
+
+//EXERCISES
+// 1. Create an address object that has all the following properties - street, city, zipCode. 
+//Then create a function called showAddress(address) that displays all the properties of this object 
+// along with their value
