@@ -448,8 +448,11 @@ console.log(email);
 const now = new Date();
 const date1 = new Date('October 8 2023'); // Assigning date as a string
 const date2 = new Date(2023, 9, 8, 10) //year, month (month starts counting from 0), day, time
-now.getMonth(February);
+//now.getMonth(February);
 now.setFullYear(2024);
 // The date object has 2 methods - set and get
 
-
+//Displaying the Date object on teh console
+//All the date objects have a few method for converting them to a string
+now.toDateString();  //like this on the console to get output
+console.log(now);    //To execute it in the terminal
