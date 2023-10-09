@@ -461,7 +461,8 @@ now.toISOString(); //Commonly used in web applications to transfer date between 
 console.log(now);    //To execute it in the terminal
 
 //EXERCISES
-// 1. Create an address object that has all the following properties - street, city, zipCode. 
+// 1. Initialize an object using an object literal. 
+//Create an address object that has all the following properties - street, city, zipCode. 
 //Then create a function called showAddress(address) that displays all the properties of this object 
 // along with their value
 
@@ -473,6 +474,7 @@ const address = {
 
 function showAddress(address) {
   for (let key in address)
-  console.log(key,':', address[key]);
+    console.log(key,':', address[key]);
 }
+
 showAddress(address);
