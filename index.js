@@ -470,3 +470,7 @@ const address = {
   city: 'Lagos',
   zipCode: 123456
 };
+
+function showAddress(address) {
+  
+}
