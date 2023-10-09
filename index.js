@@ -482,3 +482,8 @@ showAddress(address);
 
 //EXERCISE 2
 //Initialize the address object in exercise 1 using the a Factory function and a constructor function
+
+//Factoru function
+function createAddress(address, city, zipCode) {
+
+}
