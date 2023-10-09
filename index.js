@@ -499,6 +499,7 @@ function createAddress(address, city, zipCode) {
   }
 }
 
+//Creating a new address with the Factory Function
 const addressOfElozino = createAddress('Afolabi', 'Lagos', 123456);
 
 console.log(`Elozino's address:`, addressOfElozino);
@@ -509,3 +510,6 @@ function CreateAnAddress(address, city, zipCode) {
   this.city = 'city';
   this.zipCode = 'zipCode'
 }
+
+//Creating a new address with the Constructor Function
+const addressOfChinwe = new CreateAnAddress('Court 1', 'Port-Harcourt', 232 );
