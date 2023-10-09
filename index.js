@@ -512,6 +512,6 @@ function CreateAnAddress(address, city, zipCode) {
 }
 
 //Creating a new address with the Constructor Function
-const addressOfChinwe = new CreateAnAddress('Court 1', 'Port-Harcourt', 232 );
+let addressOfChinwe = new CreateAnAddress('Court 1', 'Port-Harcourt', 232 );
 
-console.log('Address of Chinwe is', CreateAnAddress);
+console.log('Address of Chinwe is', addressOfChinwe);
