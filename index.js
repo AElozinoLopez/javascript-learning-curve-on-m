@@ -460,8 +460,8 @@ now.toTimeString();
 now.toISOString(); //Commonly used in web applications to transfer date between the server and the client
 console.log(now);    //To execute it in the terminal
 
-//EXERCISES
-// 1. Initialize an object using an object literal. 
+//EXERCISE 1
+//Initialize an object using an object literal. 
 //Create an address object that has all the following properties - street, city, zipCode. 
 //Then create a function called showAddress(address) that displays all the properties of this object 
 // along with their value
@@ -478,3 +478,7 @@ function showAddress(address) {
 }
 
 showAddress(address);
+
+
+//EXERCISE 2
+//Initialize the address object in exercise 1 using the a Factory function and a constructor function
