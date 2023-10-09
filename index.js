@@ -454,7 +454,8 @@ now.setFullYear(2024);
 // The date object has 2 methods - set and get
 
 //Displaying the Date object on teh console
-//All the date objects have a few method for converting them to a string
+//All the date objects have a few method for converting them to a string. Examples below:
 now.toDateString();  //use like this on the console to get output
 now.toTimeString();
+now.toISOString(); //Commonly used in web applications to transfer date between the server and the client
 console.log(now);    //To execute it in the terminal
