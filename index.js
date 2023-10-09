@@ -502,3 +502,10 @@ function createAddress(address, city, zipCode) {
 const addressOfElozino = createAddress('Afolabi', 'Lagos', 123456);
 
 console.log(`Elozino's address:`, addressOfElozino);
+
+//Constructor Function
+function createAnAddress(address, city, zipCode) {
+  this.address = 'address';
+  this.city = 'city';
+  this.zipCode = 'zipCode'
+}
