@@ -444,9 +444,10 @@ console.log(email);
 
 // Date object
 //This is used to dynamically assign date in a project
+
 // 3 ways of creating a date object
-const now = new Date();
-const date1 = new Date('October 8 2023'); // Assigning date as a string
+const now = new Date();  //Looks like this line must be included before any of date1 and date2
+const date1 = new Date('October 8 2023 09:00'); // Assigning date as a string
 const date2 = new Date(2023, 9, 8, 10) //year, month (month starts counting from 0), day, time
 //now.getMonth(February);
 now.setFullYear(2024);
@@ -454,5 +455,6 @@ now.setFullYear(2024);
 
 //Displaying the Date object on teh console
 //All the date objects have a few method for converting them to a string
-now.toDateString();  //like this on the console to get output
+now.toDateString();  //use like this on the console to get output
+now.toTimeString();
 console.log(now);    //To execute it in the terminal
