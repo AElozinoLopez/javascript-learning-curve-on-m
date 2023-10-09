@@ -492,9 +492,11 @@ address = {
 
 
 function createAddress(address, city, zipCode) {
-  address;
-  city;
-  zipCode;
+  return {
+    address,
+    city,
+    zipCode
+  }
 }
 
 const addressOfElozino = createAddress('Afolabi', 'Lagos', 123456);
