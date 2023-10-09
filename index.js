@@ -464,3 +464,9 @@ console.log(now);    //To execute it in the terminal
 // 1. Create an address object that has all the following properties - street, city, zipCode. 
 //Then create a function called showAddress(address) that displays all the properties of this object 
 // along with their value
+
+const address = {
+  street: '20 Afolabi Sole Street, Okota',
+  city: 'Lagos',
+  zipCode: 123456
+};
