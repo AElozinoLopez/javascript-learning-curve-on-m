@@ -466,7 +466,7 @@ console.log(now);    //To execute it in the terminal
 //Then create a function called showAddress(address) that displays all the properties of this object 
 // along with their value
 
-const address = {
+let address = {
   street: '20 Afolabi Sole Street, Okota',
   city: 'Lagos',
   zipCode: 123456
@@ -484,6 +484,10 @@ showAddress(address);
 //Initialize the address object in exercise 1 using the a Factory function and a constructor function
 
 //Factoru function
+// address = {}
+
+
 function createAddress(address, city, zipCode) {
+  address;
 
 }
