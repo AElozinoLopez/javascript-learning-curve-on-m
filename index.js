@@ -501,4 +501,4 @@ function createAddress(address, city, zipCode) {
 
 const addressOfElozino = createAddress('Afolabi', 'Lagos', 123456);
 
-console.log(addressOfElozino);
+console.log(`Elozino's address:`, addressOfElozino);
