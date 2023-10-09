@@ -472,5 +472,6 @@ const address = {
 };
 
 function showAddress(address) {
-  
+  for (let key in address)
+  console.log(key);
 }
