@@ -528,7 +528,7 @@ let addresses2 = new CreateAnAddress('MTN Plaza', 'Lagos', '345123');
 
 //a. are equal
 function areEqual(addresses1, addresses2) {
-//to check if the values are equal, you have to compare their values    
+//to check if the objects are equal, you have to compare their properties    
 return addresses1.street === addresses2.street && 
   addresses1.city === addresses2.city &&
   addresses1.zipCode === addresses2.zipCode;
@@ -537,6 +537,7 @@ return addresses1.street === addresses2.street &&
 console.log(areEqual(addresses1, addresses2));
 
 //b. are same
+//to check if 2 objects are same, you have to compare their reference using the strict equality
 function areSame(addresses1, addresses2) {
   return addresses1 === addresses2;
   
