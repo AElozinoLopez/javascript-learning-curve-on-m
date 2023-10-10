@@ -525,3 +525,8 @@ console.log('Address of Chinwe is', addressOfChinwe);
 
 let addresses1 = new CreateAnAddress('11 Awolowo Road', 'Lagos', '12345');
 let addresses2 = new CreateAnAddress('MTN Plaza', 'Lagos', '345123');
+
+//a. are equal
+function areEqual(addresses1, addresses2) {
+  
+}
