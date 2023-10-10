@@ -538,8 +538,8 @@ areEqual(addresses1, addresses2);
 
 //b. are same
 function areSame(addresses1, addresses2) {
-  if (addresses1 === addresses2) 
-  return true;
+  return addresses1 === addresses2;
+  
 }
 
 console.log(areSame(addresses1, addresses2));
