@@ -528,5 +528,8 @@ let addresses2 = new CreateAnAddress('MTN Plaza', 'Lagos', '345123');
 
 //a. are equal
 function areEqual(addresses1, addresses2) {
-  
+  //to check if the values are equal, you have to compare their values
+  for (let address in addresses1) {
+    return addresses1[address];
+  }
 }
