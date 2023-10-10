@@ -522,3 +522,5 @@ console.log('Address of Chinwe is', addressOfChinwe);
 // Create two functions to:
 // a. check if both addresses are equal
 // b. check if both addresses are same
+
+let addresses1 = new CreateAnAddress('11 Awolowo Road', 'Lagos', '12345');
