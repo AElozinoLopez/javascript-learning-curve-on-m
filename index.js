@@ -531,5 +531,10 @@ function areEqual(addresses1, addresses2) {
   //to check if the values are equal, you have to compare their values
   for (let address in addresses1) {
     return addresses1[address];
+
+    for (let addresss in addresses2){
+      return addresses2(addresss);
+    }
   }
+  
 }
