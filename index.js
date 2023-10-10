@@ -515,3 +515,10 @@ function CreateAnAddress(address, city, zipCode) {
 let addressOfChinwe = new CreateAnAddress('Court 1', 'Port-Harcourt', 232 );
 
 console.log('Address of Chinwe is', addressOfChinwe);
+
+
+//EXERCISE 3
+// Take the constructor function CreateAnAddress and create two addresses.
+// Create two functions to:
+// a. check if both addresses are equal
+// b. check if both addresses are same
