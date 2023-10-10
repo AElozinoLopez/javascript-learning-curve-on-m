@@ -540,7 +540,7 @@ function areEqual(addresses1, addresses2) {
     return true;
 }
 
-areEqual('r', 'check');
+areEqual(addresses1, addresses2);
 
 //b. are same
 function areSame(addresses1, addresses2) {
