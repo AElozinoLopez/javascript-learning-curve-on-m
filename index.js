@@ -536,5 +536,6 @@ function areEqual(addresses1, addresses2) {
       return addresses2(addresss);
     }
   }
-  
+  if (address === addresss)
+    return true;
 }
