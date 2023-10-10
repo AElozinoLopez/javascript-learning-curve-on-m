@@ -544,5 +544,6 @@ areEqual('r', 'check');
 
 //b. are same
 function areSame(addresses1, addresses2) {
-  
+  if (addresses1 === addresses2) 
+  return true;
 }
