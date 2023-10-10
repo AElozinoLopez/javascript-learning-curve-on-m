@@ -548,4 +548,4 @@ function areSame(addresses1, addresses2) {
   return true;
 }
 
-areSame(addresses1, addresses2);
+console.log(areSame(addresses1, addresses2));
