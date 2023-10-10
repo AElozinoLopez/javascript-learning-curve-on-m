@@ -524,3 +524,4 @@ console.log('Address of Chinwe is', addressOfChinwe);
 // b. check if both addresses are same
 
 let addresses1 = new CreateAnAddress('11 Awolowo Road', 'Lagos', '12345');
+let addresses2 = new CreateAnAddress('MTN Plaza', 'Lagos', '345123');
