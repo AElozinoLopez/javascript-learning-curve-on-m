@@ -506,9 +506,9 @@ console.log(`Elozino's address:`, addressOfElozino);
 
 //Constructor Function
 function CreateAnAddress(street, city, zipCode) {
-  this.street = 'street';
-  this.city = 'city';
-  this.zipCode = 'zipCode'
+  this.street = 'Court 1';
+  this.city = 'Port-Harcourt';
+  this.zipCode = '34567'
 }
 
 //Creating a new address with the Constructor Function
