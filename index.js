@@ -534,7 +534,7 @@ return addresses1.street === addresses2.street &&
   addresses1.zipCode === addresses2.zipCode;
 }
 
-areEqual(addresses1, addresses2);
+console.log(areEqual(addresses1, addresses2));
 
 //b. are same
 function areSame(addresses1, addresses2) {
