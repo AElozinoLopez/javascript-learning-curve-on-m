@@ -539,3 +539,5 @@ function areEqual(addresses1, addresses2) {
   if (address === addresss)
     return true;
 }
+
+areEqual('r', 'check');
