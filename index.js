@@ -541,3 +541,8 @@ function areEqual(addresses1, addresses2) {
 }
 
 areEqual('r', 'check');
+
+//b. are same
+function areSame(addresses1, addresses2) {
+  
+}
