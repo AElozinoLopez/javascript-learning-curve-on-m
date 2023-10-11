@@ -642,6 +642,7 @@ console.log(findElements.indexOf(3)); //This returns 2
 
 // lastIndexOf method. If the value exists, it's index is returned. If not, it is set to -1.
 console.log(findElements.lastIndexOf(8)); //This returns -1
+console.log(findElements.lastIndexOf(1)); //This returns 4
 
 
 
