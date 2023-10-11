@@ -589,6 +589,7 @@ console.log(post);
 //Exercise 6
 //Create price range object to display different price ranges
 
+//Whenever you want to create a list of objects, put them in an array
 const priceRange = {
   range: '$',
   range: '$$',
