@@ -649,7 +649,11 @@ console.log(findElements.lastIndexOf(1)); //This returns 4
 console.log(findElements.indexOf(2) !== -1); //This checks to see if 2 exists in the array. It returns trus.
 
 //Method 2. Using the includes() method
-console.log(findElements.includes(9)); //This is the modern method and it is way cleaner. It returns false
+console.log(findElements.includes(9)); //This is the modern method and it is way cleaner. It returns false.
+
+//NOTE: All teh elements declared above have a second property called the starting index. If it is not specified, counts begins at index 0.
+console.log(findElements.indexOf(3, 1)); //1 is the starting index. This returns 2
+
 
 
 
