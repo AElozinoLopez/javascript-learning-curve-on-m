@@ -610,5 +610,8 @@ let restaurants = [
 // 4. Splitting arrays
 // 5. Combining arrays
 
+//Adding Elements
+const number = [3, 4];
 
+// Arrays are objects. So, you can use the dot notation to look up the properties and methods of an array.
 
