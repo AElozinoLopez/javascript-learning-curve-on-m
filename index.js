@@ -564,7 +564,7 @@ const blogPost = {
 
 console.log(blogPost);
 
-//Exercise: Create a constructor function out of the blogPost. Imagine a scenario where 
+//Exercise5: Create a constructor function out of the blogPost. Imagine a scenario where 
 //the a user is writing a post but has not published it yet
 
 // properties - title, body, author, views, comments (author, body), isLive
@@ -584,5 +584,16 @@ function BlogPost(title, body, author) {  //The fewer the parameters the easier 
 let post = new BlogPost('a', 'b', 'c');
 
 console.log(post);
+
+
+//Exercise 6
+//Create price range object to display different price ranges
+
+const priceRange = {
+  range: '$',
+  range: '$$',
+  range: '$$$'
+}
+
 
 
