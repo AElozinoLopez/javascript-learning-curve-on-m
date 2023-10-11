@@ -553,5 +553,9 @@ const blogPost = {
   body: 'Hello World! Welcome to my blog post',
   author: 'Elozino Lopez',
   views: 3000000,
+  comments: {
+    author: 'Chnwe ELopez',
+    body: 'Great stuff'
+  }
 
 }
