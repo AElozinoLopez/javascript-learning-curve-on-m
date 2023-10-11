@@ -610,7 +610,7 @@ let restaurants = [
 // 4. Splitting arrays
 // 5. Combining arrays
 
-//Adding Elements
+//1. Adding Elements
 const arrayNumbers = [3, 4];
 
 // Arrays are objects. So, you can use the dot notation to look up the properties and methods defined in an array.
@@ -625,6 +625,13 @@ arrayNumbers.unshift(1, 2);  //Adds elements to the beginning of the array
 
 
 //Middle
-arrayNumbers.splice(2, 0, 'a', 'b');
+arrayNumbers.splice(2, 0, 'a', 'b'); //(start index, count, items to add)
 
 console.log(arrayNumbers);
+
+
+// 2. Finding Elements
+// This depends on whether you are storing primitives or reference types in an array
+
+//Primitives
+const findElements = [1, 2, 3, 4, 5];
