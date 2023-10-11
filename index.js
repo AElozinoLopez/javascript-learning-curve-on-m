@@ -591,7 +591,9 @@ console.log(post);
 
 //Whenever you want to create a list of objects, put them in an array
 const priceRange = [
- {label: '$', tooltip: 'Inexpensive', minPerPerson: 0, maxPerPerson: 10}
+ {label: '$', tooltip: 'Inexpensive', minPerPerson: 0, maxPerPerson: 10},
+ {label: '$$', tooltip: 'Moderate', minPerPerson: 11, maxPerPerson: 20},
+
 ]
 
 
