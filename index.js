@@ -566,3 +566,7 @@ console.log(blogPost);
 
 //Exercise: Create a constructor function out of the blogPost. Imagine a scenario where 
 //the a user is writing a post but has not published it yet
+
+function Post() {
+  
+}
