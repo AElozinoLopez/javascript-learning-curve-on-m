@@ -590,11 +590,11 @@ console.log(post);
 //Create price range object to display different price ranges
 
 //Whenever you want to create a list of objects, put them in an array
-const priceRange = {
+const priceRange = [
   range: '$',
   range: '$$',
   range: '$$$'
-}
+]
 
 
 
