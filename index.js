@@ -556,6 +556,7 @@ const blogPost = {
   comments: {
     author: 'Chnwe ELopez',
     body: 'Great stuff'
-  }
+  },
+  isLive: true
 
 }
