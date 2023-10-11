@@ -644,6 +644,9 @@ console.log(findElements.indexOf(3)); //This returns 2
 console.log(findElements.lastIndexOf(8)); //This returns -1
 console.log(findElements.lastIndexOf(1)); //This returns 4
 
+//To check if a given element exists in a given array
+console.log(findElements.indexOf(2) !== -1); //This checks to see if 2 exists in the array
+
 
 
 
