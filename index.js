@@ -553,10 +553,12 @@ const blogPost = {
   body: 'Hello World! Welcome to my blog post',
   author: 'Elozino Lopez',
   views: 3000000,
-  comments: {
-    author: 'Chnwe ELopez',
-    body: 'Great stuff'
-  },
+  comments: [                    //To have a list of objects inside an object, set the object to an array and dump the objects in the array
+    {author: 'Chnwe ELopez',
+    body: 'Great stuff'},
+    {author: 'Brian Efe',
+    body: 'My daddy my daddy'}
+  ],
   isLive: true
 }
 
