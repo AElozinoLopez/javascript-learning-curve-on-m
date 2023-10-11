@@ -597,7 +597,9 @@ let priceRange = [
  {label: '$$$', tooltip: 'Expensive', minPerPerson: 21, maxPerPerson: 50}
 ];
 
-let averagePerPerson = 5;
+let restaurants = [
+  {averagePerPerson: 5}
+]
 
 
 
