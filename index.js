@@ -635,3 +635,5 @@ console.log(arrayNumbers);
 
 //Primitives
 const findElements = [1, 2, 3, 4, 5];
+
+findElements.indexOf('a')  // If the value exists, it's index is returned. If not, it is set to -1.
