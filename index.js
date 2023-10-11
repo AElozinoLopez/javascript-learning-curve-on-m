@@ -646,10 +646,10 @@ console.log(findElements.lastIndexOf(1)); //This returns 4
 
 //To check if a given element exists in a given array
 //Method 1
-console.log(findElements.indexOf(2) !== -1); //This checks to see if 2 exists in the array
+console.log(findElements.indexOf(2) !== -1); //This checks to see if 2 exists in the array. It returns trus.
 
-//Method 2
-console.log(findElements.includes(9)); //This is the modern method and it is way cleaner
+//Method 2. Using the includes() method
+console.log(findElements.includes(9)); //This is the modern method and it is way cleaner. It returns false
 
 
 
