@@ -551,5 +551,6 @@ console.log(areSame(addresses1, addresses2));
 const blogPost = {
   title: 'My Journey',  
   body: 'Hello World! Welcome to my blog post',
-  
+  author: 'Elozino Lopez',
+
 }
