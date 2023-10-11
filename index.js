@@ -587,7 +587,8 @@ console.log(post);
 
 
 //Exercise 6
-//Create price range object to display different price ranges
+// Visit yelp.com. Look at the pricing in $, $$, and $$$. Think of the properties you 
+// can use to create a price range object to display different price ranges
 
 //Whenever you want to create a list of objects, put them in an array
 let priceRange = [
@@ -595,6 +596,8 @@ let priceRange = [
  {label: '$$', tooltip: 'Moderate', minPerPerson: 11, maxPerPerson: 20},
  {label: '$$$', tooltip: 'Expensive', minPerPerson: 21, maxPerPerson: 50}
 ];
+
+let averagePerPerson = 5;
 
 
 
