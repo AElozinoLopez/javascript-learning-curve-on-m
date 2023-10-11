@@ -558,5 +558,6 @@ const blogPost = {
     body: 'Great stuff'
   },
   isLive: true
-
 }
+
+console.log(blogPost);
