@@ -553,8 +553,8 @@ const blogPost = {
   body: 'Hello World! Welcome to my blog post',
   author: 'Elozino Lopez',
   views: 3000000,
-  comments: [                    //To have a list of objects inside an object, set the object to an array and dump the objects in the array
-    {author: 'Chnwe ELopez',
+  comments: [                    //To have a list of objects inside an object, set the object to an array and /n
+    {author: 'Chnwe ELopez',     //dump the objects in the array
     body: 'Great stuff'},
     {author: 'Brian Efe',
     body: 'My daddy my daddy'}
@@ -563,3 +563,6 @@ const blogPost = {
 }
 
 console.log(blogPost);
+
+//Exercise: Create a constructor function out of the blogPost. Imagine a scenario where 
+//the a user is writing a post but has not published it yet
