@@ -583,4 +583,6 @@ function BlogPost(title, body, author, views, comments, isLive) {
 
 const post = new BlogPost('a', 'b', 'c', 200, 'comments', false);
 
+console.log(post);
+
 
