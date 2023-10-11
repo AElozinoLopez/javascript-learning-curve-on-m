@@ -590,11 +590,11 @@ console.log(post);
 //Create price range object to display different price ranges
 
 //Whenever you want to create a list of objects, put them in an array
-const priceRange = [
+let priceRange = [
  {label: '$', tooltip: 'Inexpensive', minPerPerson: 0, maxPerPerson: 10},
  {label: '$$', tooltip: 'Moderate', minPerPerson: 11, maxPerPerson: 20},
  {label: '$$$', tooltip: 'Expensive', minPerPerson: 21, maxPerPerson: 50}
-]
+];
 
 
 
