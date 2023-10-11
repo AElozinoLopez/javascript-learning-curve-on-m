@@ -623,8 +623,8 @@ arrayNumbers.push(5, 6);  //Adds the elements to the end of the array
 //Beginning
 arrayNumbers.unshift(1, 2);  //Adds elements to the beginning of the array
 
-console.log(arrayNumbers);
 
 //Middle
 arrayNumbers.splice(2, 0, 'a', 'b');
 
+console.log(arrayNumbers);
