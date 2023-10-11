@@ -567,6 +567,16 @@ console.log(blogPost);
 //Exercise: Create a constructor function out of the blogPost. Imagine a scenario where 
 //the a user is writing a post but has not published it yet
 
-function Post() {
-  
+// properties - title, body, author, views, comments (author, body), isLive
+// const post = {
+//   title:title
+// }
+
+function Post(title, body, author, views, comments, isLive) {
+  this.title = title;
+  this.body = body;
+  this.author = author;
+  this.views = views;
+  this.comments = comments;
+  this.isLive = isLive;
 }
