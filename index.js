@@ -572,7 +572,7 @@ console.log(blogPost);
 //   title:title
 // }
 
-function BlogPost(title, body, author, views, comments, isLive) {
+function BlogPost(title, body, author) {
   this.title = title;
   this.body = body;
   this.author = author;
