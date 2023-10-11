@@ -613,5 +613,12 @@ let restaurants = [
 //Adding Elements
 const number = [3, 4];
 
-// Arrays are objects. So, you can use the dot notation to look up the properties and methods of an array.
+// Arrays are objects. So, you can use the dot notation to look up the properties and methods defined in an array.
+// You can add properties to an array in the following positions:
+// End; Beginning; and Middle
+
+//End
+number.push(5, 6);  //Adds the elements to the end of the array
+
+//
 
