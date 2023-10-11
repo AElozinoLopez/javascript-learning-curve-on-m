@@ -581,7 +581,7 @@ function BlogPost(title, body, author) {  //The fewer the parameters the easier 
   this.isLive = false; //Upon creation, the post is not yet live
 }
 
-const post = new BlogPost('a', 'b', 'c', 200, 'comments', false);
+let post = new BlogPost('a', 'b', 'c');
 
 console.log(post);
 
