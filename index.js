@@ -552,5 +552,6 @@ const blogPost = {
   title: 'My Journey',  
   body: 'Hello World! Welcome to my blog post',
   author: 'Elozino Lopez',
+  views: 3000000,
 
 }
