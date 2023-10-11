@@ -549,5 +549,5 @@ console.log(areSame(addresses1, addresses2));
 //Create a blog post object with these properties - title, body, author, views, comments (author, body), isLive
 
 const blogPost = {
-  
+  title: 'My Journey',  
 }
