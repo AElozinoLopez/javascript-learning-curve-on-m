@@ -572,7 +572,7 @@ console.log(blogPost);
 //   title:title
 // }
 
-function Post(title, body, author, views, comments, isLive) {
+function BlogPost(title, body, author, views, comments, isLive) {
   this.title = title;
   this.body = body;
   this.author = author;
@@ -580,3 +580,7 @@ function Post(title, body, author, views, comments, isLive) {
   this.comments = comments;
   this.isLive = isLive;
 }
+
+const post = new BlogPost('a', 'b', 'c', 200, 'comments', false);
+
+
