@@ -577,7 +577,7 @@ function BlogPost(title, body, author) {  //The fewer the parameters the easier 
   this.body = body;
   this.author = author;
   this.views = 0; //When a post is created, the views is zero by default
-  this.comments = comments;
+  this.comments = 0;  //Same goes for the comment
   this.isLive = isLive;
 }
 
