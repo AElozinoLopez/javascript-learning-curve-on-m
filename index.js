@@ -623,3 +623,5 @@ number.push(5, 6);  //Adds the elements to the end of the array
 //Beginning
 number.unshift(1, 2);  //Adds elements to the beginning of the array
 
+console.log(number);
+
