@@ -258,16 +258,16 @@ showStars(3);
 //EXercise 11
 //Function to create prime numbers 
 function showPrimes(limit) {
-    for (number = 2; number <= limit; number++) {
+    for (arrayNum = 2; arrayNum <= limit; arrayNum++) {
 
         let isPrime = true;
-        for (let factor = 2; factor < number; factor ++) {
-            if (number % factor === 0) {
+        for (let factor = 2; factor < arrayNum; factor ++) {
+            if (arrayNum % factor === 0) {
                 isPrime = false;
                 break;
             }                
         }
-        if (isPrime === true) console.log(number);
+        if (isPrime === true) console.log(arrayNum);
     }
 }
 showPrimes(10);
@@ -611,17 +611,17 @@ let restaurants = [
 // 5. Combining arrays
 
 //Adding Elements
-const number = [3, 4];
+const arrayNumbers = [3, 4];
 
 // Arrays are objects. So, you can use the dot notation to look up the properties and methods defined in an array.
 // You can add properties to an array in the following positions:
 // End; Beginning; and Middle
 
 //End
-number.push(5, 6);  //Adds the elements to the end of the array
+arrayNumbers.push(5, 6);  //Adds the elements to the end of the array
 
 //Beginning
-number.unshift(1, 2);  //Adds elements to the beginning of the array
+arrayNumbers.unshift(1, 2);  //Adds elements to the beginning of the array
 
-console.log(number);
+console.log(arrayNumbers);
 
