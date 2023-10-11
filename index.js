@@ -572,11 +572,11 @@ console.log(blogPost);
 //   title:title
 // }
 
-function BlogPost(title, body, author) {
+function BlogPost(title, body, author) {  //The fewer the parameters the easier it is to manage the function
   this.title = title;
   this.body = body;
   this.author = author;
-  this.views = views;
+  this.views = 0; //When a post is created, the views is zero by default
   this.comments = comments;
   this.isLive = isLive;
 }
