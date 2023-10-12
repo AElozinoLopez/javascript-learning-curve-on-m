@@ -847,7 +847,7 @@ const list = [1, 2, 3, 4, 5];
 const allPositive = list.every(function(value) {
   return value >= 0;
 });
-console.log(value);
+console.log(allPositive);
 
 
 
