@@ -815,6 +815,13 @@ schools.sort(function(a, b) {
 
 console.log(schools);
 
+//Each character in a computer (numbers, uppercase, lowercase, symbols) is internally represented by a number.
+//Goto google and search for ascii table
+// Convert each property toUpperCase or toLowerCase before applying the if conditions
+
+
+
+
 
 
 
