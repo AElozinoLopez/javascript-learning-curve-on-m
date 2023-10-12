@@ -847,6 +847,7 @@ const list = [1, 2, 3, 4, 5];
 list.every(function(value) {
   return value >= 0;
 });
+console.log(value);
 
 
 
