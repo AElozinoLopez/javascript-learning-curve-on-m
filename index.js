@@ -712,6 +712,8 @@ const emptyingArray2 = emptyingArray; //This is supposed to hold the value [1, 2
 //Solution 1
 emptyingArray = []; // This will only work if let was used instead of const to initialize the array
 
+console.log(emptyingArray);
+
 
 
 
