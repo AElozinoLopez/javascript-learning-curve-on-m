@@ -825,8 +825,12 @@ const children = [
 ];
 
 children.sort(function(a, b) {
+  //converting properties to uppercase
   const nameA = a.name(toUpperCase);
   const nameB = b.name(toUpperCase);
+
+  //cheecking for equality
+  if (nameA < nameB) return -1;
 })
 
 
