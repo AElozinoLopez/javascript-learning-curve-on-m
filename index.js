@@ -744,7 +744,7 @@ const slicedMethod3 = combined.slice(); // This returns the original array
 console.log(sliced);
 
 
-
+//SPREAD OPERATOR This is ES6 way of combining arrays
 
 
 
