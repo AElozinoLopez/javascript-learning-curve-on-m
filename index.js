@@ -739,6 +739,7 @@ console.log(combined);
 
 //Slicing using the slice method
 const sliced = combined.slice(2, 4);
+console.log(sliced);
 
 
 
