@@ -841,6 +841,8 @@ console.log(children);
 //TESTING THE ELEMENT OF AN ARRAY
 //The every() and some() method are used to check for elements with specified properties.
 
+const list = [1, 2, 3, 4, 5];
+
 
 
 
