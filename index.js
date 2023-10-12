@@ -790,5 +790,6 @@ console.log(theMemoCombined);
 const applicants = [2, 4, 3, 1, 5];
 
 const sort = applicants.sort();
+console.log(sort);
 
 
