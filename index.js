@@ -690,6 +690,9 @@ console.log(moore);
 
 const remove = [1, 2, 3, 4, 5];
 //End
+const removeEnd = remove.pop();
+
+console.log(removeEnd);
 
 
 
