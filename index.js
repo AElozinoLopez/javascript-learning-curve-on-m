@@ -714,9 +714,11 @@ const emptyingArray2 = emptyingArray; //This is supposed to hold the value [1, 2
 
 
 //Solution 2
-
 emptyingArray.length = 0;  //This resets the original content. So it cannot be used any where else in the program
 
+
+//Solution 3
+const emptyingSplice = emptyingArray.splice(0, emptyingArray.length);
 
 console.log(emptyingArray);
 console.log(emptyingArray2);
