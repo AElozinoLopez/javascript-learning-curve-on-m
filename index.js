@@ -801,7 +801,7 @@ console.log(applicants);
 const schools = [
   {id: 1, name: 'Stutern'},
   {id: 2, name: 'Ruqtec'}
-]
+];
 
 
 
