@@ -819,6 +819,10 @@ console.log(schools);
 //Goto google and search for ascii table
 // Convert each property toUpperCase or toLowerCase before applying the if conditions
 
+const children = [
+  {id: 1, name: 'Splendour'},
+  {id: 2, name: 'brian'}
+];
 
 
 
