@@ -770,3 +770,5 @@ const names = ['Elozino', 'Lopez'];
 
 const join =  names.join('-');
 
+console.log(join);
+
