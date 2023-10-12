@@ -704,6 +704,12 @@ console.log(removeMiddle); // Removes the element 4
 
 
 //EMPTYING AN ARRAY ie removing all the elements of an array
+//There are four ways of doing this
+
+//Solution 1
+const emptyingArray = [1, 2, 3, 4];
+
+
 
 
 
