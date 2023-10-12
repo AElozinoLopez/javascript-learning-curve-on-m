@@ -685,4 +685,12 @@ const moore = findArray.find( moore => moore.name === 'Obinna'); //If no paramet
 console.log(moore); 
 
 
+//REMOVING ELEMENTS
+// We can remove elements from the end, beginning, and anywhere in the middle
+
+const remove = [1, 2, 3, 4, 5];
+//End
+
+
+
 
