@@ -729,6 +729,10 @@ emptyingArray.pop();
 console.log(emptyingArray);
 console.log(emptyingArray2);
 
+//COMBINING AND SLICING ARRAYS
+const firstArray = [1, 2, 3];
+
+
 
 
 
