@@ -733,8 +733,11 @@ console.log(emptyingArray2);
 const firstArray = [1, 2, 3];
 const secondArray = [4, 5, 6];
 
+//Combining using the concat() method
 const combined = firstArray.concat(secondArray);
 console.log(combined);
+
+
 
 
 
