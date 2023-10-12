@@ -796,4 +796,8 @@ console.log(applicants);
 applicants.reverse();
 console.log(applicants);
 
+//The above example only works for primitives. 
+//To use sort and reverse for an array of objects, the below should be done:
+
+
 
