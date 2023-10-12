@@ -740,6 +740,7 @@ console.log(combined);
 //Slicing using the slice method
 const sliced = combined.slice(2, 4);  //This picks the element at index 2 and picks the element before the end index (4 in this case). [3, 4] is returned
 const slicedMethod2 = combined.slice(2); // This begins at index 2 and returns all the elements afterwards 
+const slicedMethod3 = combined.slice(); // This returns the original array
 console.log(sliced);
 
 
