@@ -720,6 +720,7 @@ emptyingArray.length = 0;  //This resets the original content. So it cannot be u
 //Solution 3
 const emptyingSplice = emptyingArray.splice(0, emptyingArray.length);
 
+console.log(emptyingSplice);
 console.log(emptyingArray);
 console.log(emptyingArray2);
 
