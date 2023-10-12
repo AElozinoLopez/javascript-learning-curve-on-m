@@ -824,7 +824,7 @@ const children = [
   {id: 2, name: 'brian'}
 ];
 
-const familyTree = children.sort(function(a, b) {
+children.sort(function(a, b) {
   //Removing case sensitivity
   const nameA = a.name.toUpperCase();
   const nameB = b.name.toUpperCase();
@@ -836,7 +836,7 @@ const familyTree = children.sort(function(a, b) {
 });
 
 console.log(children);
-console.log(familyTree);
+
 
 
 
