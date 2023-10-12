@@ -750,3 +750,9 @@ console.log(spread);
 
 
 
+//ITERATING AN ARRAY 
+//The for...of loop is used to iterate ver an array
+const iterate = [1, 2, 3, 4];
+
+
+
