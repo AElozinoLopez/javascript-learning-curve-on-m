@@ -713,7 +713,7 @@ const emptyingArray2 = emptyingArray; //This is supposed to hold the value [1, 2
 // emptyingArray = []; // This will only work if let was used instead of const to initialize the array. But the original content remains
 
 
-//Solution 2
+//Solution 2.  The best solution!
 emptyingArray.length = 0;  //This resets the original content. So it cannot be used any where else in the program
 
 
@@ -721,6 +721,10 @@ emptyingArray.length = 0;  //This resets the original content. So it cannot be u
 const emptyingSplice = emptyingArray.splice(0, emptyingArray.length);
 
 console.log(emptyingSplice);
+
+//Solution 4. Avoid this solution
+emptyingArray.pop();
+
 console.log(emptyingArray);
 console.log(emptyingArray2);
 
