@@ -731,6 +731,7 @@ console.log(emptyingArray2);
 
 //COMBINING AND SLICING ARRAYS
 const firstArray = [1, 2, 3];
+const secondArray = [4, 5, 6];
 
 
 
