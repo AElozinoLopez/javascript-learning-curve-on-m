@@ -835,7 +835,11 @@ children.sort(function(a, b) {
   return 0;
 });
 
-console.log(children);
+console.log(children); 
+
+
+//TESTING THE ELEMENT OF AN ARRAY
+//The every() and some() method are used to check for elements with specified properties.
 
 
 
