@@ -844,14 +844,19 @@ console.log(children);
 const list = [1, 2, 3, 4, 5];
 
 //To check if all the numbers are positive
-const allPositive = list.every(function(value) {
-  return value >= 0;
+const allPositive = list.every(function(value) { //The every method will run the callback function on every element and 
+  return value >= 0; // terminates if it finds one that does not meet the criteria"
 });
 console.log(allPositive);
 
 
+//Some() method
+//This is used to check if some of the criterias are true
 
-
+const atLeastOnePositive = list.some(function(input) {
+  return value => 0;
+});
+console.log(atLeastOnePositive);
 
 
 
