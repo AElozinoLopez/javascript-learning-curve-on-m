@@ -656,7 +656,8 @@ console.log(findElements.indexOf(3, 1)); //1 is the starting index. This returns
 
 
 //REFERENCE TYPES
-// The find() method is used to check if a given element exists in an array. This method takes a function called predicate or callback function'
+// The find() method is used to check if a given element exists in an array of objects. 
+//This method takes a function called predicate or callback function'
 
 
 
