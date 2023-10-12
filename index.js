@@ -703,6 +703,8 @@ console.log(removeBeginning);
 //Middle
 const removeMiddle = remove.splice(2, 1)  // 2 represents the index, 1 represents the number of elements to be removed
 
+console.log(removeMiddle);
+
 
 
 
