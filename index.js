@@ -710,10 +710,14 @@ const emptyingArray = [1, 2, 3, 4];
 const emptyingArray2 = emptyingArray; //This is supposed to hold the value [1, 2, 3, 4]
 
 //Solution 1
-// emptyingArray = []; // This will only work if let was used instead of const to initialize the array
+// emptyingArray = []; // This will only work if let was used instead of const to initialize the array. But the original content remains
 
 console.log(emptyingArray);
 console.log(emptyingArray2);
+
+//Solution 2
+
+emptyingArray.length = 0;  //This resets the original content. So it cannot be used any where else in the program
 
 
 
