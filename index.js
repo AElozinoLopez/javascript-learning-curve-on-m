@@ -782,6 +782,10 @@ console.log(theMemo);
 theMemoCombined = theMemo.join('_');
 console.log(theMemoCombined);
 
+//Both join() and split() are used when creating url slug - ie, words separated by hyphens.
 
-//Both join() and split() are used when creating url slug
+
+//SORTING ARRAYS
+//The sort method is used to sort arrays
+const applicants = [2, 4, 3, 1, 5];
 
