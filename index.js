@@ -843,6 +843,11 @@ console.log(children);
 
 const list = [1, 2, 3, 4, 5];
 
+//To check if all the numbers are positive
+list.every(function(value) {
+  return value >= 0;
+});
+
 
 
 
