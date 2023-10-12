@@ -798,6 +798,11 @@ console.log(applicants);
 
 //The above example only works for primitives. 
 //To use sort and reverse for an array of objects, the below should be done:
+const schools = [
+  {id: 1, name: 'Stutern'},
+  {id: 2, name: 'Ruqtec'}
+]
+
 
 
 
