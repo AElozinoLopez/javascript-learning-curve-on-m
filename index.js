@@ -655,6 +655,8 @@ console.log(findElements.includes(9)); //This is the modern method and it is way
 console.log(findElements.indexOf(3, 1)); //1 is the starting index. This returns 2
 
 
+//REFERENCE TYPES
+// The find() method is used to check if a given element exists in an array. This method takes a function called predicate or callback function'
 
 
 
