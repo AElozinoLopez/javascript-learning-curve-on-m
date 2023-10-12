@@ -757,5 +757,10 @@ const iterate = [1, 2, 3, 4];
 for (let iterateNumber of iterate)
   console.log(iterateNumber);
 
+//Another way to iterate an array is by using the forEach() method. This method takes a call back function.
+iterate.forEach(function(iterateNumber) {
+  console.log(iterateNumber);
+})
+
 
 
