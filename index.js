@@ -695,6 +695,9 @@ const removeEnd = remove.pop();
 
 console.log(removeEnd); // Removes 5 from the array
 
+//Beginning 
+const removeBeginning = remove.shift(); // REmoves 1 from the array
+
 
 
 
