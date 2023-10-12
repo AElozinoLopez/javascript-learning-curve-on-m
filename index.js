@@ -777,6 +777,8 @@ console.log(join);
 const memo = 'Be prepared for rapture';
 
 const theMemo = memo.split(' '); //To convert the memo string to an array
+console.log(theMemo);
+
 
 //Both join() and split() are used when creating url slug
 
