@@ -674,5 +674,7 @@ const findIndx = findArray.findIndex(function(findIndx) {      // Returns the in
   return find.name === 'Obinna';
 });
 
+console.log(findIndx);
+
 
 
