@@ -788,8 +788,7 @@ console.log(theMemoCombined);
 //SORTING ARRAYS
 //The sort method is used to sort arrays
 const applicants = [2, 4, 3, 1, 5];
-
-const sort = applicants.sort();
-console.log(sort);
+applicants.sort();
+console.l(applicants);
 
 
