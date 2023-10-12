@@ -803,6 +803,14 @@ const schools = [
   {id: 2, name: 'Ruqtec'}
 ];
 
+schools.sort(function(a, b) {
+  // a < b return -1
+  // a > b return 1
+  // a === b return 0
+
+  
+})
+
 
 
 
