@@ -835,6 +835,8 @@ children.sort(function(a, b) {
   return 0;
 });
 
+console.log(children);
+
 
 
 
