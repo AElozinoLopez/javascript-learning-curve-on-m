@@ -765,5 +765,8 @@ iterate.forEach(function(iterateNumber, index) {  //iterate.forEach( iterateNumb
 
 //JOINING ARRAYS
 //The join() method is used to join elements. 
+//This method adds all the elements of an array into a string, separated by the specified separator string.
 const names = ['Elozino', 'Lopez'];
+
+const join =  names.join('-');
 
