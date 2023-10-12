@@ -776,7 +776,7 @@ console.log(join);
 //The split() method is not an array method, it is a string "method".
 const memo = 'Be prepared for rapture';
 
-const theMemo = memo.split(' '); //To convert the memo string to an array
+const theMemo = memo.split(" "); //To convert the memo string to an array
 console.log(theMemo);
 
 
