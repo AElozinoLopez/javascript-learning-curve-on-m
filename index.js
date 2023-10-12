@@ -772,3 +772,9 @@ const join =  names.join('-');
 
 console.log(join);
 
+//NOTE: Another method that works well with the join() method is the split() method.
+//The split() method is not an array method, it is a string "method".
+
+
+//Both join() and split() are used when creating url slug
+
