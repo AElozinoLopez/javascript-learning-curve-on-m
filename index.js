@@ -689,11 +689,11 @@ console.log(moore);
 // We can remove elements from the end, beginning, and anywhere in the middle
 
 const remove = [1, 2, 3, 4, 5];
+console.log(remove);
 //End
 const removeEnd = remove.pop();
 
-console.log(removeEnd);
-console.log(remove);
+console.log(removeEnd); // Removes 5 from the array
 
 
 
