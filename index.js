@@ -824,7 +824,7 @@ const children = [
   {id: 2, name: 'brian'}
 ];
 
-children.sort(function(a, b) {
+const familyTree = children.sort(function(a, b) {
   //converting properties to uppercase
   const nameA = a.name.toUpperCase;
   const nameB = b.name.toUpperCase;
