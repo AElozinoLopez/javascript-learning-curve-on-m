@@ -745,6 +745,7 @@ console.log(sliced);
 
 
 //SPREAD OPERATOR This is ES6 way of combining arrays
+const spread = [...firstArray, ...secondArray];
 
 
 
