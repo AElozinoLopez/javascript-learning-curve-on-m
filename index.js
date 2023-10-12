@@ -664,5 +664,9 @@ const findArray = [
   {id: 2, name: 'Che'}
 ];
 
+const find = findArray.find(function(find) {
+  return find.name === 'Obinna';
+});
+
 
 
