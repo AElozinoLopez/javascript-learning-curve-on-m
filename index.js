@@ -674,7 +674,12 @@ const findIndx = findArray.findIndex(function(findIndx) {      // Returns the in
   return find.name === 'Obinna';
 });
 
-console.log(findIndx);
+console.log(findIndx); 
+
+
+//ARROW FUNCTION
+// This was introduced in ES6. When you have a callback function, you can use the arrow function instead
+
 
 
 
