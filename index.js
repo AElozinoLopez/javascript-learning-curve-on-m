@@ -831,6 +831,7 @@ children.sort(function(a, b) {
 
   //cheecking for equality
   if (nameA < nameB) return -1;
+  if (nameA > nameB) return 1;
 })
 
 
