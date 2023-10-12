@@ -791,4 +791,7 @@ const applicants = [2, 4, 3, 1, 5];
 applicants.sort();
 console.log(applicants);
 
+//Another method that works with the sort() method is the reverse method(). 
+//The reverse method() reverses the method the method in an array.
+
 
