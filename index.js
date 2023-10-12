@@ -680,9 +680,7 @@ console.log(findIndx);
 //ARROW FUNCTION
 // This was introduced in ES6. When you have a callback function, you can use the arrow function instead
 
-const findCourse = findArray.findIndex(function(findIndx) {      // Returns the index of the object. If not, it returns -1.
-  return findCourse.name === 'Obinna';
-});
+const findCourse = findArray.findIndex( findIndx => findCourse.name === 'Obinna'); //If no parameter, pass ()
 
 console.log(findCourse); 
 
