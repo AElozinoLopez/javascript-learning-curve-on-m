@@ -809,6 +809,7 @@ schools.sort(function(a, b) {
   // a === b return 0
 
   if (a.name < b.name) return -1;
+  if (a.name > b.name) return 1;
 })
 
 
