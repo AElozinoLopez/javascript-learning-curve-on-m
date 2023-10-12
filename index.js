@@ -670,5 +670,9 @@ const find = findArray.find(function(find) {      // Returns the object if found
 
 console.log(find);
 
+const findIndx = findArray.findIndex(function(findIndx) {      // Returns the index of the object. If not, it returns -1.
+  return find.name === 'Obinna';
+});
+
 
 
