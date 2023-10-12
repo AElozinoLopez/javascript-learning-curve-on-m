@@ -723,6 +723,7 @@ const emptyingSplice = emptyingArray.splice(0, emptyingArray.length);
 console.log(emptyingSplice);
 
 //Solution 4. Avoid this solution
+while (emptyingArray.length > 0)
 emptyingArray.pop();
 
 console.log(emptyingArray);
