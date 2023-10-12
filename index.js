@@ -763,4 +763,7 @@ iterate.forEach(function(iterateNumber, index) {  //iterate.forEach( iterateNumb
 });
 
 
+//JOINING ARRAYS
+//The join() method is used to join elements. 
+const names = ['Elozino', 'Lopez'];
 
