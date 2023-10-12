@@ -836,6 +836,7 @@ const familyTree = children.sort(function(a, b) {
 });
 
 console.log(children);
+console.log(familyTree);
 
 
 
