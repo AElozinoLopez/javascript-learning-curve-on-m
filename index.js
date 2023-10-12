@@ -666,7 +666,9 @@ const findArray = [
 
 const find = findArray.find(function(find) {
   return find.name === 'Obinna';
-});
+}); 
+
+console.log('find');
 
 
 
