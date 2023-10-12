@@ -754,13 +754,13 @@ console.log(spread);
 //The for...of loop is used to iterate ver an array
 const iterate = [1, 2, 3, 4];
 
-for (let iterateNumber of iterate)
+for (let iterateNumber of iterate)  //This method only gives you the elements without the index. Tp get the index, use the forEach method
   console.log(iterateNumber);
 
 //Another way to iterate an array is by using the forEach() method. This method takes a call back function.
-iterate.forEach(function(iterateNumber) {  //iterate.forEach( iterateNumber => console.log(iterateNumber)); --- Using arrow function
-  console.log(iterateNumber);
-})
+iterate.forEach(function(iterateNumber, index) {  //iterate.forEach( iterateNumber => console.log(iterateNumber)); --- Using arrow function
+  console.log(index, iterateNumber);   //The forEach() method optionally takes a second parameter called index. Used to return the index of the elements
+});
 
 
 
