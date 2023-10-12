@@ -713,6 +713,7 @@ const emptyingArray2 = emptyingArray; //This is supposed to hold the value [1, 2
 emptyingArray = []; // This will only work if let was used instead of const to initialize the array
 
 console.log(emptyingArray);
+console.log(emptyingArray2);
 
 
 
