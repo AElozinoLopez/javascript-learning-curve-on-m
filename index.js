@@ -793,5 +793,7 @@ console.log(applicants);
 
 //Another method that works with the sort() method is the reverse method(). 
 //The reverse method() reverses the method the method in an array.
+applicants.reverse();
+console.log(applicants);
 
 
