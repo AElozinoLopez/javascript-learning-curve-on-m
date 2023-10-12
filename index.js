@@ -796,8 +796,8 @@ console.log(applicants);
 applicants.reverse();
 console.log(applicants);
 
-//The above example only works for primitives. 
-//To use sort and reverse for an array of objects, the below should be done:
+//The above example only works for primitives only. 
+//To use sort and reverse method for an array of objects, the below should be done (NB: The sort will take a callback function)
 const schools = [
   {id: 1, name: 'Stutern'},
   {id: 2, name: 'Ruqtec'}
@@ -823,6 +823,11 @@ const children = [
   {id: 1, name: 'Splendour'},
   {id: 2, name: 'brian'}
 ];
+
+children.sort(function(a, b) {
+  const nameA = a.name(toUpperCase);
+  const nameB = b.name(toUpperCase);
+})
 
 
 
