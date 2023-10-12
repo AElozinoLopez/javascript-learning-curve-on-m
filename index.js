@@ -664,7 +664,7 @@ const findArray = [
   {id: 2, name: 'Che'}
 ];
 
-const find = findArray.find(function(find) {
+const find = findArray.find(function(find) {      // Returns the object if found. If not, it returns undefined.
   return find.name === 'Obinna';
 }); 
 
