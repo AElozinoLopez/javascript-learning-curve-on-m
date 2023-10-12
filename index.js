@@ -698,7 +698,10 @@ console.log(removeEnd); // Removes 5 from the array
 //Beginning 
 const removeBeginning = remove.shift(); // REmoves 1 from the array
 
-console.log(removeBeginning);
+console.log(removeBeginning); 
+
+//Middle
+const removeMiddle = remove.splice(2, 1)  // 2 represents the index, 1 represents the number of elements to be removed
 
 
 
