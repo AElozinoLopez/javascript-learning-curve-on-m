@@ -892,7 +892,7 @@ console.log(html);
 
 //Mapping to an object
 const mapObjects = filteredSerial.map(n => {
-  const obj = {value: n};
+  const obj = {value: n};    //return {value: n};  does same thing as the 2 lines used!         
   return obj;
 });
 
