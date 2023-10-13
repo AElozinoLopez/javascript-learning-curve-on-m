@@ -881,7 +881,9 @@ const serial = [1, 2, -3, 4, -5];
 
 const filteredSerial = serial.filter( n => n >= 0);  //Selecting only the positive numbers in serial
 
-const items = filteredSerial.map(n => '<li>' + n + '</li>'); //To map li to n
+const items = filteredSerial.map(n => '<li>' + n + '</li>'); //To map li to n. This retuns an array.
+
+const html = items.join(''); // To remove the commas. This returns a string
 
 console.log(filteredSerial);
 console.log(items);
