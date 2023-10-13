@@ -879,9 +879,12 @@ console.log(filtered);
 
 const serial = [1, 2, -3, 4, -5];
 
-const filteredSerial = serial.filter( n => n >= 0); 
+const filteredSerial = serial.filter( n => n >= 0);  //Selecting only the positive numbers in serial
+
+const items = filteredSerial.map(n => '<li>' + n + '</li>'); //To map li to n
 
 console.log(filteredSerial);
+console.log(items);
 
 
 
