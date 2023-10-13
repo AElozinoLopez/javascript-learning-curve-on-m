@@ -924,11 +924,11 @@ console.log(filterMapChinwe);
 
 const prices = [1, 2, -3, 5, 7];
 
-let sum = 0; 
+let summ = 0; 
 for (let n of prices) 
-  return sum = sum + n;
+  return summ = summ + n;
 
-console.log(sum);
+console.log(summ);
 
 
 
