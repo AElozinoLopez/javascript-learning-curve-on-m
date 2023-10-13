@@ -931,5 +931,9 @@ summ += n;
 
 console.log(summ);
 
+//The above can be achieved using the reduce() method. What this does is to reduce all the elements of the array into a single value, just like summing them up.
+//That single value can be anything - a string, a number, an object, anything!
+
+
 
 
