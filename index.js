@@ -881,7 +881,7 @@ const serial = [1, 2, -3, 4, -5];
 
 const filteredSerial = serial.filter( n => n >= 0); 
 
-
+console.log(filteredSerial);
 
 
 
