@@ -887,6 +887,7 @@ const html = items.join(''); // To remove the commas. This returns a string
 
 console.log(filteredSerial);
 console.log(items);
+console.log(html);
 
 
 
