@@ -935,9 +935,11 @@ console.log(summ);
 //That single value can be anything - a string, a number, an object, anything!
 const prices2 = [1, 2, -3, 5, 7];
 
-prices.reduce((accumulator, currentValue) => {
+prices2.reduce((accumulator, currentValue) => {
   return accumulator + currentValue;
 }, 0);
+
+console.log(prices2);
 
 
 
