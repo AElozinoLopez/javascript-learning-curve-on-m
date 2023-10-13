@@ -924,6 +924,10 @@ console.log(filterMapChinwe);
 
 const prices = [1, 2, -3, 5, 7];
 
+let sum = 0; 
+for (let n of prices) 
+  return sum = sum + n;
+
 
 
 
