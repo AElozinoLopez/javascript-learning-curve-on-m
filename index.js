@@ -928,6 +928,7 @@ let sum = 0;
 for (let n of prices) 
   return sum = sum + n;
 
+console.log(sum);
 
 
 
