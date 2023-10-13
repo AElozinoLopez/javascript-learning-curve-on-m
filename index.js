@@ -897,9 +897,14 @@ const mapObjects = filteredSerial.map(n => {
 });
 
 //Cleaner way to map to the object above
-//const mapObjects = filteredSerial.map(n => {value: n});  Note Below!
+
+//const mapObjects = filteredSerial.map(n => {value: n}); 
+
 //NB: If the {} is not wrapped in a (), JavaScript engine will treat it as a code block instead of as an object, \n
 //thereby throwing an error"
 
 console.log(mapObjects);
+
+//NOTE: Both the filter() and the map() returns a new array. They don't modify the original array. These methods are chainable.
+//When chaining multiple objects, it is best practice to store them in separate lines
 
