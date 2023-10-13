@@ -910,5 +910,7 @@ console.log(mapObjects);
 
 //Example on chaining
 
-const chinwe = [1, 2, 3, 4];
+const chinwe = [1, -2, -3, 4];
+
+
 
