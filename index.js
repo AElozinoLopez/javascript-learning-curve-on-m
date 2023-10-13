@@ -896,5 +896,10 @@ const mapObjects = filteredSerial.map(n => {
   return obj;
 });
 
+//Cleaner way to map to the object above
+//const mapObjects = filteredSerial.map(n => {value: n});  Note Below!
+//NB: If the {} is not wrapped in a (), JavaScript engine will treat it as a code block instead of as an object, \n
+//thereby throwing an error"
+
 console.log(mapObjects);
 
