@@ -866,10 +866,11 @@ console.log(atLeastOnePositive);
 
 const number = [1, 2, -3, -4, 5];
 
-const filtered = number.filter(function(input) {  // Using Arrow function: number.filter( input => input >= 0);
+const filtered = number.filter(function(input) {  // Using Arrow function: number.filter( input => input >= 0); // Same as number.filter( n => n >= 0); /Where n = number = input
   return input >= 0;    // Checking for all the positive numbers
 });
 
+//In a real world application, you will be filtering through array of objects. Say you have a list of restaurants and wish to know the one that is currently opened, use filter().
 console.log(filtered);
 
 
