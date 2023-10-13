@@ -866,8 +866,8 @@ console.log(atLeastOnePositive);
 
 const number = [1, 2, -3, -4, 5];
 
-const filtered = number.filter(function(input) {
-  return input >= 0;
+const filtered = number.filter(function(input) {  // Using Arrow function: number.filter( input => return input >= 0);
+  return input >= 0;    // Checking for all the positive numbers
 });
 
 console.log(filtered);
