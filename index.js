@@ -926,7 +926,7 @@ const prices = [1, 2, -3, 5, 7];
 
 let summ = 0; 
 for (let n of prices) 
-  return summ = summ + n;
+   summ = summ + n;
 
 console.log(summ);
 
