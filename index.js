@@ -918,5 +918,7 @@ console.log(filterChinwe);
 
 const mapChinwe = filterChinwe.map(n => {value: n});
 
+console.log(mapChinwe);
+
 
 
