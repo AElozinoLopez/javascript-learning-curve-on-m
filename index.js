@@ -877,6 +877,8 @@ console.log(filtered);
 //MAPPING AN ARRAY
 //This uses the map() method. This method is used to map element(s) in an array to something else
 
+const serial = [1, 2, -3, 4, -5];
+
 
 
 
