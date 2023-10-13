@@ -912,7 +912,7 @@ console.log(mapObjects);
 
 const chinwe = [1, -2, -3, 4];
 
- chinwe.filter(n => n >= 0);
+const filterchinwe = chinwe.filter(n => n >= 0);
 
 
 
