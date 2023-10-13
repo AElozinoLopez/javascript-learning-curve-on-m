@@ -866,6 +866,10 @@ console.log(atLeastOnePositive);
 
 const number = [1, 2, -3, -4, 5];
 
+const filtered = umber.filter(function(input) {
+  return input >= 0;
+});
+
 
 
 
