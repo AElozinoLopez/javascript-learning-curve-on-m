@@ -870,6 +870,8 @@ const filtered = number.filter(function(input) {
   return input >= 0;
 });
 
+console.log(filtered);
+
 
 
 
