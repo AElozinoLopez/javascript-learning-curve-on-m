@@ -908,3 +908,7 @@ console.log(mapObjects);
 //NOTE: Both the filter() and the map() returns a new array. They don't modify the original array. These methods are chainable.
 //When chaining multiple objects, it is best practice to store them in separate lines
 
+//Example on chaining
+
+const chinwe = [1, 2, 3, 4];
+
