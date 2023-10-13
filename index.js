@@ -852,6 +852,7 @@ console.log(allPositive);
 
 //Some() method
 //This is used to check if some of the criterias are true
+const list2 = [1, 2, -1, 3, 4, 5];
 
 const atLeastOnePositive = list.some(function(input) {
   return value => 0;
