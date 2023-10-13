@@ -916,7 +916,7 @@ const filterChinwe = chinwe.filter(n => n >= 0);
 
 console.log(filterChinwe);
 
-filterChinwe.map(n => {value: n});
+const mapChinwe = filterChinwe.map(n => {value: n});
 
 
 
