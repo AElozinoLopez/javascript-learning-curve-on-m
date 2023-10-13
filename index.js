@@ -860,6 +860,11 @@ const atLeastOnePositive = list2.some(function(input) {
 console.log(atLeastOnePositive);
 
 
+//FILTERING AN ARRAY
+//The filter method is used to filter!
+// When you call the filter() method, it loops through the array and executes the callback function for each element in the array. 
+
+
 
 
 
