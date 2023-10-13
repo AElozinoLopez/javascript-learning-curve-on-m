@@ -916,7 +916,13 @@ const filterMapChinwe = chinwe
   .filter(n => n >= 0) 
   .map(n => ({value: n}));
 
-console.log(filterMapChinwe);
+console.log(filterMapChinwe); 
+
+
+//REDUCING AN ARRAY
+//To calculate the sum of numbers in an array
+
+const prices = [1, 2, -3, 5, 7];
 
 
 
