@@ -855,7 +855,7 @@ console.log(allPositive);
 const list2 = [1, 2, -1, 3, 4, 5];
 
 const atLeastOnePositive = list2.some(function(input) {
-  return value => 0;     //Checks if atleast one element meets the condition
+  return input => 0;     //Checks if atleast one element meets the condition
 });
 console.log(atLeastOnePositive);
 
