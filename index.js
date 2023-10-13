@@ -941,5 +941,14 @@ const reducedPrice = prices2.reduce((accumulator, currentValue) => {  //accumula
 
 console.log(reducedPrice);
 
+//The above repeated in a cleaner fashion. REpresenting the algorithm of the reduce() method
+
+// const prices2 = [1, 2, -3, 5, 7];
+
+// const reducedPrice = prices2.reduce(
+//    (accumulator, currentValue) => accumulator + currentValue
+// );
+
+
 
 
