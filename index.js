@@ -980,4 +980,10 @@ function includes(array, searchElement) {   // You can choose to iterate only a 
 }
 
 console.log(includes(element, 4));  //Returns true
-console.log(includes(element, 8));  //Returns false
+console.log(includes(element, 8));  //Returns false  
+
+
+// Exercise 3
+// Write a function called except that takes two arrays as parameters. The second array takes the value you want to be excluded from 
+// the original array. The output of the function should be an array that has the original array without the values specified by the 
+// second parameter.
