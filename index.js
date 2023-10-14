@@ -972,4 +972,6 @@ console.log(arrayFromRange(1, 6)); // This returns [1, 2, 3, 4, 5, 6]
 
 const element = [1, 2, 3, 4, 5, 6];
 
-
+function includes(array, searchElemnt) {
+  
+}
