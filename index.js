@@ -980,3 +980,4 @@ function includes(array, searchElement) {   // You can choose to iterate only a 
 }
 
 console.log(includes(element, 4));
+console.log(includes(element, 8));
