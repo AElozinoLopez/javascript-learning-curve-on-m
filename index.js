@@ -979,5 +979,5 @@ function includes(array, searchElement) {   // You can choose to iterate only a 
     return false;
 }
 
-console.log(includes(element, 4));
-console.log(includes(element, 8));
+console.log(includes(element, 4));  //Returns true
+console.log(includes(element, 8));  //Returns false
