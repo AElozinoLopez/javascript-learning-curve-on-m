@@ -962,7 +962,7 @@ function arrayFromRange(min, max) {
     rangeOutput.push(i); //Push the result to an empty array
   return rangeOutput;    
 }
-
-console.log(arrayFromRange(1, 6));
+console.log(arrayFromRange(1, 6)); // This returns [1, 2, 3, 4, 5, 6]
+//If the the maximum number supplied is less than the minimum number, we get an empty array
 
 
