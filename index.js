@@ -998,3 +998,5 @@ function except(array, excluded) {
       newArray.push(element);         // Sends element(s) not found in the excluded array to the new array (newArray)
     return newArray;
 }
+
+console.log(except(defaultArray, [2]));
