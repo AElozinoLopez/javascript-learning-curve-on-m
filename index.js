@@ -966,3 +966,8 @@ console.log(arrayFromRange(1, 6)); // This returns [1, 2, 3, 4, 5, 6]
 //If the the maximum number supplied is less than the minimum number, we get an empty array
 
 
+// Exercise 2
+// Write a function called includes that takes two parameters - array and searchElement. If we have the search element in the array,
+// the function should return true otherwise, it should return false.
+
+
