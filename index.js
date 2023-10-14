@@ -960,9 +960,9 @@ function arrayFromRange(min, max) {
   const output = [];
   for (let i = min; i <= max; i++) //iterate the min max parameter and increment the value to until max is reached
     output.push(i); //Push the result to an empty array
-  return output;
-    
+  return output;    
 }
 
+console.log(numberRange);
 
 
