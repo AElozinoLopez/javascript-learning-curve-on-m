@@ -958,6 +958,8 @@ const numberRange = [1, 6];
 
 function arrayFromRange(min, max) {
   const output = [];
+  for (let i = min; i <= max; i++)
+    
 }
 
 
