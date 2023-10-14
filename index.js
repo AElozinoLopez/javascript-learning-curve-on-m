@@ -963,6 +963,6 @@ function arrayFromRange(min, max) {
   return rangeOutput;    
 }
 
-console.log(rangeOutput);
+console.log(arrayFromRange(1, 6));
 
 
