@@ -989,3 +989,7 @@ console.log(includes(element, 8));  //Returns false
 // second parameter.
 
 const defaultArray = [1, 2, 3, 4];
+
+function except(array, excluded) {
+  
+}
