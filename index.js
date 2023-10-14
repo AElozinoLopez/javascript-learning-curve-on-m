@@ -957,12 +957,12 @@ console.log(reducedPrice);
 const numberRange = [1, 6]; 
 
 function arrayFromRange(min, max) {
-  const output = [];
+  const rangeOutput = [];
   for (let i = min; i <= max; i++) //iterate the min max parameter and increment the value to until max is reached
-    output.push(i); //Push the result to an empty array
-  return output;    
+    rangeOutput.push(i); //Push the result to an empty array
+  return rangeOutput;    
 }
 
-console.log(numberRange);
+console.log(rangeOutput);
 
 
