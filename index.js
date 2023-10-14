@@ -950,5 +950,9 @@ console.log(reducedPrice);
 // );
 
 
+//ARRAY EXERCISES
+//Exercise 1
+// Write a function called arrayFromRange() which takes to parameters(min, max) and returns all the numbers within the range specified
+
 
 
