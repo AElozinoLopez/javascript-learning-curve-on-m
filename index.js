@@ -978,3 +978,5 @@ function includes(array, searchElemnt) {   //You can choose to iterate only a pa
       return true;
     return false;
 }
+
+console.log(includes(element, 4));
