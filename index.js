@@ -992,4 +992,7 @@ const defaultArray = [1, 2, 3, 4];
 
 function except(array, excluded) {
   const newArray = [];
+  for (let element of array)       // Iterate over defaultArray
+    if (!excluded.includes(element))
+      newArray.push(element);
 }
