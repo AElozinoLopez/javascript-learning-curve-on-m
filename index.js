@@ -972,7 +972,7 @@ console.log(arrayFromRange(1, 6)); // This returns [1, 2, 3, 4, 5, 6]
 
 const element = [1, 2, 3, 4, 5, 6];
 
-function includes(array, searchElemnt) {   //You can choose to iterate only a particular parameter
+function includes(array, searchElement) {   //You can choose to iterate only a particular parameter
   for (let element of array )
     if (element === searchElement)
       return true;
