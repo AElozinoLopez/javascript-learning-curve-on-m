@@ -990,9 +990,11 @@ console.log(includes(element, 8));  //Returns false
 
 const defaultArray = [1, 2, 3, 4];
 
+
 function except(array, excluded) {
   const newArray = [];
   for (let element of array)       // Iterate over defaultArray
     if (!excluded.includes(element)) // Checks if the result of the iterated element is found in the excluded array
       newArray.push(element);         // Sends element(s) not found in the excluded array to the new array (newArray)
+    return newArray;
 }
