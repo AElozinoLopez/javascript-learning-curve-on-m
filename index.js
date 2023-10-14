@@ -991,5 +991,5 @@ console.log(includes(element, 8));  //Returns false
 const defaultArray = [1, 2, 3, 4];
 
 function except(array, excluded) {
-  
+  const newArray = [];
 }
