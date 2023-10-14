@@ -957,7 +957,7 @@ console.log(reducedPrice);
 const numberRange = [1, 6]; 
 
 function arrayFromRange(min, max) {
-  
+  const output = [];
 }
 
 
