@@ -954,7 +954,11 @@ console.log(reducedPrice);
 //Exercise 1
 // Write a function called arrayFromRange() which takes to parameters(min, max) and returns all the numbers within the range specified
 
-const numberRange = [1, 6];
+const numberRange = [1, 6]; 
+
+function arrayFromRange(min, max) {
+  
+}
 
 
 
