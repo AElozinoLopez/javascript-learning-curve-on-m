@@ -646,7 +646,7 @@ console.log(findElements.lastIndexOf(1)); //This returns 4
 
 //To check if a given element exists in a given array
 //Method 1
-console.log(findElements.indexOf(2) !== -1); //This checks to see if 2 exists in the array. It returns trus.
+console.log(findElements.indexOf(2) !== -1); //This checks to see if 2 exists in the array. It returns true.
 
 //Method 2. Using the includes() method
 console.log(findElements.includes(9)); //This is the modern method and it is way cleaner. It returns false.
@@ -958,7 +958,7 @@ const numberRange = [1, 6];
 
 function arrayFromRange(min, max) {
   const rangeOutput = [];
-  for (let i = min; i <= max; i++) //iterate the min max parameter and increment the value to until max is reached
+  for (let i = min; i <= max; i++) //Checks the min max parameter and increment the value to until max is reached
     rangeOutput.push(i); //Push the result to an empty array
   return rangeOutput;    
 }
@@ -972,6 +972,9 @@ console.log(arrayFromRange(1, 6)); // This returns [1, 2, 3, 4, 5, 6]
 
 const element = [1, 2, 3, 4, 5, 6];
 
-function includes(array, searchElemnt) {
-  
+function includes(array, searchElemnt) {   //You can choose to iterate only a particular parameter
+  for (let element of array )
+    if (element === searchElement)
+      return true;
+    return false;
 }
