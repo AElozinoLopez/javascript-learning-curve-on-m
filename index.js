@@ -1007,3 +1007,7 @@ console.log(except(defaultArray, [2]));
 // left or right of the given array. Use the method error() to determine error id an element is displaced out of the array"
 
 const toyNumbers = [1, 2, 3, 4, 5];
+
+function move(array, index, offset) {
+  
+}
