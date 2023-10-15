@@ -999,4 +999,11 @@ function except(array, excluded) {
     return newArray;
 }
 
-console.log(except(defaultArray, [2]));
+console.log(except(defaultArray, [2])); 
+
+
+//Exercise 4
+// Create a function called move that takes 3 parameters - array, index, offset. The purpose of this function is to displace elements
+// left or right of the given array. Use the method error() to determine error id an element is displaced out of the array"
+
+const toyNumbers = [1, 2, 3, 4, 5];
