@@ -1016,3 +1016,5 @@ function move(array, index, offset) {
   moveOutput.splice(index + offset, 0, outputElement);  // 
   return moveOutput; 
 }
+
+console.log(move(toyNumbers, 0, 2));
