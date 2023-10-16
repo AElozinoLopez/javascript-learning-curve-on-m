@@ -1010,7 +1010,7 @@ const toyNumbers = [1, 2, 3, 4, 5];
 
 function move(array, index, offset) {
   const position = index + offset;
-  if (position > toyNumbers.length) {
+  if (position >= toyNumbers.length) {
     console.error('Invalid offset.');
     return;
   }
@@ -1022,4 +1022,4 @@ function move(array, index, offset) {
   return moveOutput; 
 }
 
-console.log(move(toyNumbers, 0, 2));
+console.log(move(toyNumbers, 0, 5));
