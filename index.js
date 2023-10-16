@@ -1011,7 +1011,7 @@ const toyNumbers = [1, 2, 3, 4, 5];
 function move(array, index, offset) {
   const moveOutput = [...toyNumbers];  // To duplicate the original array
   const outputElement = moveOutput.splice(index, 1)[0]; //Removes 1 element at the specified index, and returns the array from index 0
-  for (let element of array) {
-    if 
-  }
+  moveOutput.splice(index + offset, 0, outputElement);  // 
+ 
+ 
 }
