@@ -1010,6 +1010,10 @@ const toyNumbers = [1, 2, 3, 4, 5];
 
 function move(array, index, offset) {
   const position = index + offset;
+  if (position > toyNumbers.length) {
+    console.error('Invalid offset.');
+    return;
+  }
 
   //Algorithm for moving an item in an array
   const moveOutput = [...toyNumbers];  // To duplicate the original array
