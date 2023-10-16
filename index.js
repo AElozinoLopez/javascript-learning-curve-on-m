@@ -1009,7 +1009,8 @@ console.log(except(defaultArray, [2]));
 const toyNumbers = [1, 2, 3, 4, 5];
 
 function move(array, index, offset) {
-  let moveOutput = [...toyNumbers];  // To duplicate the original array
+  const moveOutput = [...toyNumbers];  // To duplicate the original array
+
   for (let element of array) {
     if 
   }
