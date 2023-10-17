@@ -1039,3 +1039,5 @@ function countOccurrences(array, searchElement) {
   return countOccur;                // Return countOccur
 }
 
+console.log(countOccurrences(numberList, 2));
+
