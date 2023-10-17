@@ -1031,3 +1031,7 @@ console.log(move(toyNumbers, 0, 5));
 
 const numberList = [1, 2, 3, 4, 5];
 
+function countOccurrences(aarray, searchElement) {
+
+}
+
