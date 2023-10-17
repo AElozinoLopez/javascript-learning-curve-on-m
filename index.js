@@ -1029,3 +1029,5 @@ console.log(move(toyNumbers, 0, 5));
 // Write a function called countOccurrences. This function takes an array and a searchElement and it returns the number f times that element
 // has occurred in the array
 
+const numberList = [1, 2, 3, 4, 5];
+
