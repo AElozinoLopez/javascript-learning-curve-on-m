@@ -1034,7 +1034,8 @@ const numberList = [1, 2, 3, 4, 5];
 function countOccurrences(array, searchElement) {
   let countOccur = 0;
     for (let element of array) {
-     
+      if (element === searchElement)
+       
 
     }
 }
