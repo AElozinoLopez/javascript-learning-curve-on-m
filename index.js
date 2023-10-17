@@ -1035,7 +1035,7 @@ function countOccurrences(array, searchElement) {
   let countOccur = 0;
     for (let element of array) {
       if (element === searchElement)
-       
+      countOccur++;
 
     }
 }
