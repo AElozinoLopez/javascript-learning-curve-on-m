@@ -1040,3 +1040,10 @@ function countOccurrences(array, searchElement) {
 }
 console.log(countOccurrences(numberList, 2));
 
+
+
+//Exercise 6
+// Create a function called getMax. Give it an array. It should return the highest number in the array
+
+
+
